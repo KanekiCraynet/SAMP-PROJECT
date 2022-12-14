@@ -7,10 +7,13 @@
 #pragma tabsize 0
 #pragma unused ret_memcpy
 
+#define COLOR_WHITE 0xFFFFFFAA
 #define Dialog_register 1
 #define Dialog_login 	2
 #define Dialog_konfrim 	3
+#define Welcome_Server 1
 
+//Enum and New Var
 enum PlayerInfo
 {
 	Float: Health,
@@ -26,6 +29,10 @@ enum PlayerInfo
 new pInfo[MAX_PLAYERS][PlayerInfo];
 new File [128];
 
+//Forward
+forward ShowCharacter(playerid);
+forward ini_GetKey( line[] );
+
 main()
 {
 	print("\n----------------------------------");
@@ -37,7 +44,7 @@ public OnPlayerConnect(playerid)
 {
 	GameTextForPlayer(playerid,"~w~SA-MP: ~r~Bare Script",5000,5);
 	resertenum(playerid);	
-	format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
+	format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 	if(!dini_Exists(File))
 	{
 		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
@@ -68,7 +75,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 			if(strlen(inputtext) >= 5 && strlen(inputtext) <= 20)
 			{
-				format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
+				format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 				dini_Create (File);
 				dini_Set(File,"Password", inputtext);
 				dini_FloatSet(File, "Darah", 100.0);
@@ -101,7 +108,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if(response)
 		{
 			new pass[255];
-			format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
+			format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 			format(pass, sizeof(pass), "%s", dini_Get(File, "Password"));
 			if(!strlen(inputtext)) return ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 			if(strcmp(inputtext, pass) == 0)
@@ -131,6 +138,18 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			SetPlayerInterior(playerid, 0);
 			SetPlayerVirtualWorld(playerid,0);
 			SetPlayerSkin(playerid, 98);*/
+		}
+	}
+	if(dialogid == Welcome_Server)
+	{
+		if(response)
+		{
+			if(listitem == 0)
+			{
+				SendClientMessage(playerid, COLOR_WHITE, "SERVER: Selamat datang di Vanguard Roleplay.");
+		        ShowCharacter(playerid);
+			}
+
 		}
 	}
 	return 1;
@@ -226,7 +245,7 @@ public loaddatapemain(playerid)
 forward savedatapemain(playerid);
 public savedatapemain(playerid)
 {
-	format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
+	format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 	if(dini_Exists(File))
 	{
 		GetPlayerPos(playerid, pInfo[playerid][PosX], pInfo[playerid][PosY], pInfo[playerid][PosZ]);
@@ -251,4 +270,50 @@ public savedatapemain(playerid)
 		SendClientMessage(playerid, -1, "data pemain berhasil di simpan");	
 
 	}
+}
+
+public ShowCharacter(playerid)
+{
+	if(IsPlayerConnected(playerid))
+	{
+        new string[256];
+		new Account1[64];
+		new Account2[64];
+		new Account3[64];
+		format(string, sizeof(string), "UCP/Users/%s.ini", playerid);
+        new File: UserFile = fopen(string, io_read);
+		if ( UserFile )
+        {
+            new key[ 256 ] , val[ 256 ];
+			new Data[ 256 ];
+			while ( fread( UserFile , Data , sizeof( Data ) ) )
+			{
+				key = ini_GetKey( Data );
+				if( strcmp( key , "Account1" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account1, val, 0, strlen(val)-1, 255); }
+				if( strcmp( key , "Account2" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account2, val, 0, strlen(val)-1, 255); }
+				if( strcmp( key , "Account3" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account3, val, 0, strlen(val)-1, 255); }
+			}
+			fclose(UserFile);
+        }
+        format(string, sizeof(string), "%s\n%s\n%s\n{00BC2E}Create New Character\n{F81414}Delete Character\n",Account1,Account2,Account3);
+	    ShowPlayerDialog(playerid, 699, DIALOG_STYLE_LIST, "Character Select", string, "Select", "Quit" );
+	}
+}
+
+stock ini_GetKey( line[] )
+{
+	new keyRes[256];
+	keyRes[0] = 0;
+    if( strfind( line , "=" , true ) == -1 ) return keyRes;
+    strmid( keyRes , line , 0 , strfind( line , "=" , true ) , sizeof( keyRes) );
+    return keyRes;
+}
+
+stock ini_GetValue( line[] )
+{
+	new valRes[256];
+	valRes[0]=0;
+	if( strfind( line , "=" , true ) == -1 ) return valRes;
+	strmid( valRes , line , strfind( line , "=" , true )+1 , strlen( line ) , sizeof( valRes ) );
+	return valRes;
 }
