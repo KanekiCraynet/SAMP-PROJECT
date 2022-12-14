@@ -1,19 +1,17 @@
 #include <a_samp>
-#include <core>
-#include <float>
-#include <dutils>
-#include <Dini>
-#include <dudb>
-#pragma tabsize 0
-#pragma unused ret_memcpy
+#include <foreach>
+#include <streamer>
+#include <sscanf2>
+#include <dini>
+#include <zcmd>
 
-#define COLOR_WHITE 0xFFFFFFAA
+#define l_red 0xFF0000AA
+#define l_green 0x33FF33AA
+
 #define Dialog_register 1
 #define Dialog_login 	2
 #define Dialog_konfrim 	3
-#define Welcome_Server 4
 
-//Enum and New Var
 new aVehicleNames[212][] =
 {
 	{"Landstalker"},
@@ -230,6 +228,7 @@ new aVehicleNames[212][] =
 	{"Utility Trailer"}
 };
 
+
 enum PlayerInfo
 {
 	Float: Health,
@@ -245,15 +244,28 @@ enum PlayerInfo
 new pInfo[MAX_PLAYERS][PlayerInfo];
 new File [128];
 
-//Forward
-forward ShowCharacter(playerid);
-forward ini_GetKey( line[] );
-
 main()
 {
 	print("\n----------------------------------");
-	print("  Bare Script\n");
+	print(" GM Belajar");
 	print("----------------------------------\n");
+}
+
+public OnGameModeInit()
+{
+	// Don't use these lines if it's a filterscript
+	SetGameModeText("Tutor SAMP");
+	return 1;
+}
+
+public OnGameModeExit()
+{
+	return 1;
+}
+
+public OnPlayerRequestClass(playerid, classid)
+{
+	return 1;
 }
 
 public OnPlayerConnect(playerid)
@@ -262,9 +274,11 @@ public OnPlayerConnect(playerid)
 	format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 	if(!dini_Exists(File))
 	{
-		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
+		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "{6EF83C}Register", "Isi", "Masuk", "Keluar");
 	}else{
-		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
+		new logindialog[256];
+        format(logindialog, sizeof(logindialog),"{FFFFFF}Selamat Datang User Account {B8FF02}%s\n{00BC2E}User Account ini telah terdaftar.{FFFFFF}\nSilahkan masukkan {B8FF02}Password{FFFFFF} untuk Login", playerid);
+		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "{6EF83C}Login Panel", logindialog, "Login", "Keluar");
 	}
 	return 1;
 }
@@ -356,49 +370,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	return 1;
 }
 
-public OnPlayerCommandText(playerid, cmdtext[])
+public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 {
-	new idx;
-	new cmd[256];
-	
-	cmd = strtok(cmdtext, idx);
-
-	if(strcmp(cmd, "/yadayada", true) == 0) {
-    	return 1;
-	}
-
-	return 0;
-}
-
-public OnPlayerDeath(playerid, killerid, reason)
-{
-   	return 1;
-}
-
-SetupPlayerForClassSelection(playerid)
-{
- 	SetPlayerInterior(playerid,14);
-	SetPlayerPos(playerid,258.4893,-41.4008,1002.0234);
-	SetPlayerFacingAngle(playerid, 270.0);
-	SetPlayerCameraPos(playerid,256.0815,-43.0475,1004.0234);
-	SetPlayerCameraLookAt(playerid,258.4893,-41.4008,1002.0234);
-}
-
-public OnPlayerRequestClass(playerid, classid)
-{
-	SetupPlayerForClassSelection(playerid);
-	return 1;
-}
-
-public OnGameModeInit()
-{
-	SetGameModeText("Bare Script");
-	ShowPlayerMarkers(1);
-	ShowNameTags(1);
-	AllowAdminTeleport(1);
-
-	AddPlayerClass(265,1958.3783,1343.1572,15.3746,270.1425,0,0,0,0,-1,-1);
-
 	return 1;
 }
 
@@ -418,9 +391,10 @@ stock GetName(playerid)
 CMD:veh(playerid,tmp[])
 {
 	new String[200];
-	new vehicle = GetVehicleModelIDFromName(tmp);
 	new Float:x, Float:y, Float:z;
 	if(!strlen(tmp)) return SendClientMessage(playerid, l_red, "Anda tidak memberi nama kendaraan");
+
+	new vehicle = GetVehicleModelIDFromName(tmp);
 
 	if(vehicle < 400 || vehicle > 611) return SendClientMessage(playerid, l_red, "Nama kendaraan itu tidak ditemukan");
 
@@ -470,6 +444,7 @@ stock GetXYInFrontOfPlayer(playerid, &Float:x2, &Float:y2, Float:distance)
 	x2 += (distance * floatsin(-a, degrees));
 	y2 += (distance * floatcos(-a, degrees));
 }
+
 
 resertenum(playerid)
 {
@@ -533,50 +508,4 @@ public savedatapemain(playerid)
 		SendClientMessage(playerid, -1, "data pemain berhasil di simpan");	
 
 	}
-}
-
-public ShowCharacter(playerid)
-{
-	if(IsPlayerConnected(playerid))
-	{
-        new string[256];
-		new Account1[64];
-		new Account2[64];
-		new Account3[64];
-		format(string, sizeof(string), "UCP/Users/%s.ini", playerid);
-        new File: UserFile = fopen(string, io_read);
-		if ( UserFile )
-        {
-            new key[ 256 ] , val[ 256 ];
-			new Data[ 256 ];
-			while ( fread( UserFile , Data , sizeof( Data ) ) )
-			{
-				key = ini_GetKey( Data );
-				if( strcmp( key , "Account1" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account1, val, 0, strlen(val)-1, 255); }
-				if( strcmp( key , "Account2" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account2, val, 0, strlen(val)-1, 255); }
-				if( strcmp( key , "Account3" , true ) == 0 ) { val = ini_GetValue( Data ); strmid(Account3, val, 0, strlen(val)-1, 255); }
-			}
-			fclose(UserFile);
-        }
-        format(string, sizeof(string), "%s\n%s\n%s\n{00BC2E}Create New Character\n{F81414}Delete Character\n",Account1,Account2,Account3);
-	    ShowPlayerDialog(playerid, 699, DIALOG_STYLE_LIST, "Character Select", string, "Select", "Quit" );
-	}
-}
-
-stock ini_GetKey( line[] )
-{
-	new keyRes[256];
-	keyRes[0] = 0;
-    if( strfind( line , "=" , true ) == -1 ) return keyRes;
-    strmid( keyRes , line , 0 , strfind( line , "=" , true ) , sizeof( keyRes) );
-    return keyRes;
-}
-
-stock ini_GetValue( line[] )
-{
-	new valRes[256];
-	valRes[0]=0;
-	if( strfind( line , "=" , true ) == -1 ) return valRes;
-	strmid( valRes , line , strfind( line , "=" , true )+1 , strlen( line ) , sizeof( valRes ) );
-	return valRes;
 }
