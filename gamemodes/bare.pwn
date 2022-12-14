@@ -42,7 +42,9 @@ public OnPlayerConnect(playerid)
 	{
 		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
 	}else{
-		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
+	new logindialog[256];
+	format(logindialog, sizeof(logindialog),"{FFFFFF}Selamat Datang User Account {B8FF02}%s\n{00BC2E}User Account ini telah terdaftar.{FFFFFF}\nSilahkan masukkan {B8FF02}Password{FFFFFF} untuk Login", playerid);
+	ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "{6EF83C}Login Panel", logindialog, "Masuk", "Keluar");
 	}
 	return 1;
 }
@@ -101,6 +103,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			new pass[255];
 			format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
 			format(pass, sizeof(pass), "%s", dini_Get(File, "Password"));
+			if(!strlen(inputtext)) return ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 			if(strcmp(inputtext, pass) == 0)
 			{
 				SetTimer("loaddatapemain", 1000, false);
