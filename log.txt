@@ -1,0 +1,431 @@
+[2022-12-14T19:17:31+0700] [Info] Legacy Network started on port 7777
+[2022-12-14T19:17:33+0700] [Info] Failed to announce legacy network to open.mp list
+[19:19:52] [Error] Your rcon password must be changed from the default password. Please change your rcon password.
+[19:19:52] [Info] 
+-----------------------------------
+[19:19:52] [Info] Grand Larceny Property Filterscript		
+[19:19:52] [Info] -----------------------------------
+
+[19:19:52] [Info] 
+--Admin Player Skin Changer Loaded
+
+[19:19:52] [Info] 
+--Admin Vehicle Spawner Loaded
+
+[19:19:52] [Info] 
+
+[19:19:52] [Info]   |---------------------------------------------------
+[19:19:52] [Info]   |--- LS BeachSide Filterscript
+[19:19:52] [Info]   |--  Script v1.03
+[19:19:52] [Info]   |--  19th April 2015
+[19:19:52] [Info]   |---------------------------------------------------
+[19:19:52] [Info]   |--  LS BeachSide Building Elevator created
+[19:19:52] [Info]   |---------------------------------------------------
+[19:19:52] [Info] Loaded 3 vehicles from: vehicles/trains.txt
+[19:19:52] [Info] Loaded 3 vehicles from: vehicles/pilots.txt
+[19:19:52] [Info] Loaded 15 vehicles from: vehicles/lv_law.txt
+[19:19:52] [Info] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[19:19:52] [Info] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[19:19:52] [Info] Loaded 38 vehicles from: vehicles/sf_law.txt
+[19:19:52] [Info] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[19:19:52] [Info] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[19:19:52] [Info] Loaded 24 vehicles from: vehicles/ls_law.txt
+[19:19:52] [Info] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[19:19:52] [Info] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[19:19:53] [Info] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[19:19:53] [Info] Loaded 71 vehicles from: vehicles/whetstone.txt
+[19:19:53] [Info] Loaded 168 vehicles from: vehicles/bone.txt
+[19:19:53] [Info] Loaded 61 vehicles from: vehicles/flint.txt
+[19:19:53] [Info] Loaded 96 vehicles from: vehicles/tierra.txt
+[19:19:53] [Info] Loaded 96 vehicles from: vehicles/red_county.txt
+[19:19:53] [Info] Total vehicles from files: 1781
+[19:19:53] [Info] Reading File: blank
+[19:19:53] [Info] Reading File: properties/houses.txt
+[19:19:53] [Info] Reading File: properties/businesses.txt
+[19:19:53] [Info] Reading File: properties/banks.txt
+[19:19:53] [Info] Reading File: properties/police.txt
+[19:19:53] [Info] 
+---------------------------------------
+[19:19:53] [Info] Running Grand Larceny - by the SA-MP team
+
+[19:19:53] [Info] ---------------------------------------
+
+[19:19:54] [Info] Legacy Network started on port 7777
+[19:19:54] [Info]   |--  LS BeachSide Building Elevator destroyed
+[19:19:54] [Info]   |---------------------------------------------------
+[19:22:07] [Error] Your rcon password must be changed from the default password. Please change your rcon password.
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\gl_actions.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\gl_realtime.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\gl_property.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\gl_mapicon.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\ls_elevator.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\attachments.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:07] [Info] Could not find:
+
+	 filterscripts\skinchanger.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:08] [Info] Could not find:
+
+	 filterscripts\vspawner.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:08] [Info] Could not find:
+
+	 filterscripts\ls_mall.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:08] [Info] Could not find:
+
+	 filterscripts\ls_beachside.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[19:22:08] [Info] Loaded 3 vehicles from: vehicles/trains.txt
+[19:22:08] [Info] Loaded 3 vehicles from: vehicles/pilots.txt
+[19:22:08] [Info] Loaded 15 vehicles from: vehicles/lv_law.txt
+[19:22:08] [Info] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[19:22:08] [Info] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[19:22:08] [Info] Loaded 38 vehicles from: vehicles/sf_law.txt
+[19:22:08] [Info] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[19:22:08] [Info] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[19:22:08] [Info] Loaded 24 vehicles from: vehicles/ls_law.txt
+[19:22:08] [Info] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[19:22:08] [Info] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[19:22:08] [Info] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[19:22:08] [Info] Loaded 71 vehicles from: vehicles/whetstone.txt
+[19:22:08] [Info] Loaded 168 vehicles from: vehicles/bone.txt
+[19:22:08] [Info] Loaded 61 vehicles from: vehicles/flint.txt
+[19:22:08] [Info] Loaded 96 vehicles from: vehicles/tierra.txt
+[19:22:08] [Info] Loaded 96 vehicles from: vehicles/red_county.txt
+[19:22:08] [Info] Total vehicles from files: 1781
+[19:22:08] [Info] 
+---------------------------------------
+[19:22:08] [Info] Running Grand Larceny - by the SA-MP team
+
+[19:22:08] [Info] ---------------------------------------
+
+[19:22:08] [Info] Legacy Network started on port 7777
+[19:24:51] [Info] Loaded 3 vehicles from: vehicles/trains.txt
+[19:24:51] [Info] Loaded 3 vehicles from: vehicles/pilots.txt
+[19:24:51] [Info] Loaded 15 vehicles from: vehicles/lv_law.txt
+[19:24:51] [Info] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[19:24:51] [Info] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[19:24:51] [Info] Loaded 38 vehicles from: vehicles/sf_law.txt
+[19:24:51] [Info] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[19:24:51] [Info] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[19:24:51] [Info] Loaded 24 vehicles from: vehicles/ls_law.txt
+[19:24:51] [Info] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[19:24:51] [Info] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[19:24:51] [Info] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[19:24:51] [Info] Loaded 71 vehicles from: vehicles/whetstone.txt
+[19:24:51] [Info] Loaded 168 vehicles from: vehicles/bone.txt
+[19:24:51] [Info] Loaded 61 vehicles from: vehicles/flint.txt
+[19:24:51] [Info] Loaded 96 vehicles from: vehicles/tierra.txt
+[19:24:51] [Info] Loaded 96 vehicles from: vehicles/red_county.txt
+[19:24:51] [Info] Total vehicles from files: 1781
+[19:24:51] [Info] 
+---------------------------------------
+[19:24:51] [Info] Running Grand Larceny - by the SA-MP team
+
+[19:24:51] [Info] ---------------------------------------
+
+[19:24:51] [Info] Legacy Network started on port 7777
+[21:00:37] [Info] Could not find:
+
+	 gamemodes\grandlarc.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[21:00:37] [Info] Legacy Network started on port 7777
+[21:15:02] [Info] Loading plugin: streamer
+[21:15:02] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:15:02] [Info] Loading plugin: sscanf
+[21:15:02] [Info] 
+
+[21:15:02] [Info]  ===============================
+
+[21:15:02] [Info]       sscanf plugin loaded.     
+
+[21:15:02] [Info]          Version:  2.8.3        
+
+[21:15:02] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:15:02] [Info]  ===============================
+
+[21:15:02] [Info] Loading plugin: Whirlpool
+[21:15:02] [Info]  
+[21:15:02] [Info]  ==================
+[21:15:02] [Info]  
+[21:15:02] [Info]   Whirlpool loaded
+[21:15:02] [Info]  
+[21:15:02] [Info]  ==================
+[21:15:02] [Info]  
+[21:15:02] [Info] Loading plugin: QuaternionStuff
+[21:15:02] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[21:15:02] [Info] Loading plugin: RouteConnectorPlugin
+[21:15:02] [Info] Loading plugin: ColAndreas
+[21:15:02] [Info] *********************
+[21:15:02] [Info] ** Created By:     **
+[21:15:02] [Info] ** [uL]Chris42O    **
+[21:15:02] [Info] ** [uL]Slice       **
+[21:15:02] [Info] ** [uL]Pottus      **
+[21:15:02] [Info] *********************
+[21:15:02] [Info] No collision data found.
+[21:15:02] [Info] *********************
+[21:15:02] [Info]   ColAndreas Loaded
+[21:15:02] [Info]    v1.4.0
+[21:15:02] [Info] *********************
+[21:15:02] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[21:15:02] [Info] AMX (40321100) loaded
+[21:15:02] [Info] 
+----------------------------------
+[21:15:02] [Info]   Bare Script
+
+[21:15:02] [Info] ----------------------------------
+
+[21:15:03] [Info] Legacy Network started on port 7777
+[21:15:14] [Info] [connection] incoming connection: 127.0.0.1:51007 id: 0
+[21:15:14] [Info] [join] Inuzuka has joined the server (0:127.0.0.1)
+[21:32:02] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[21:32:02] [Info] 
+
+[21:32:02] [Info]  ===============================
+
+[21:32:02] [Info]      sscanf plugin unloaded.    
+
+[21:32:02] [Info]  ===============================
+
+[21:32:02] [Info]  
+[21:32:02] [Info]  ====================
+[21:32:02] [Info]  
+[21:32:02] [Info]   Whirlpool unloaded
+[21:32:02] [Info]  
+[21:32:02] [Info]  ====================
+[21:32:02] [Info]  
+[21:32:02] [Info] *********************
+[21:32:02] [Info] *ColAndreas Unloaded*
+[21:32:02] [Info] *********************
+[21:32:11] [Info] Loading plugin: streamer
+[21:32:11] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:32:11] [Info] Loading plugin: sscanf
+[21:32:11] [Info] 
+
+[21:32:11] [Info]  ===============================
+
+[21:32:11] [Info]       sscanf plugin loaded.     
+
+[21:32:11] [Info]          Version:  2.8.3        
+
+[21:32:11] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:32:11] [Info]  ===============================
+
+[21:32:11] [Info] Loading plugin: Whirlpool
+[21:32:11] [Info]  
+[21:32:11] [Info]  ==================
+[21:32:11] [Info]  
+[21:32:11] [Info]   Whirlpool loaded
+[21:32:11] [Info]  
+[21:32:11] [Info]  ==================
+[21:32:11] [Info]  
+[21:32:11] [Info] Loading plugin: QuaternionStuff
+[21:32:11] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[21:32:11] [Info] Loading plugin: RouteConnectorPlugin
+[21:32:11] [Info] Loading plugin: ColAndreas
+[21:32:11] [Info] *********************
+[21:32:11] [Info] ** Created By:     **
+[21:32:11] [Info] ** [uL]Chris42O    **
+[21:32:11] [Info] ** [uL]Slice       **
+[21:32:11] [Info] ** [uL]Pottus      **
+[21:32:11] [Info] *********************
+[21:32:11] [Info] No collision data found.
+[21:32:11] [Info] *********************
+[21:32:11] [Info]   ColAndreas Loaded
+[21:32:11] [Info]    v1.4.0
+[21:32:11] [Info] *********************
+[21:32:11] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[21:32:11] [Info] AMX (39668204) loaded
+[21:32:11] [Info] 
+----------------------------------
+[21:32:11] [Info]   Bare Script
+
+[21:32:11] [Info] ----------------------------------
+
+[21:32:12] [Info] Legacy Network started on port 7777
+[21:33:24] [Info] [connection] incoming connection: 127.0.0.1:55045 id: 0
+[21:33:24] [Info] [join] Inuzuka has joined the server (0:127.0.0.1)
+[21:55:15] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[21:55:15] [Info] 
+
+[21:55:15] [Info]  ===============================
+
+[21:55:15] [Info]      sscanf plugin unloaded.    
+
+[21:55:15] [Info]  ===============================
+
+[21:55:15] [Info]  
+[21:55:15] [Info]  ====================
+[21:55:15] [Info]  
+[21:55:15] [Info]   Whirlpool unloaded
+[21:55:15] [Info]  
+[21:55:15] [Info]  ====================
+[21:55:15] [Info]  
+[21:55:15] [Info] *********************
+[21:55:15] [Info] *ColAndreas Unloaded*
+[21:55:15] [Info] *********************
