@@ -2460,3 +2460,1206 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [23:49:54] Number of vehicle models: 0
 [23:49:58] [connection] incoming connection: 127.0.0.1:61621 id: 0
 [23:49:58] [join] Inuzuka has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:53:02] filterscripts = ""  (string)
+[00:53:02] 
+[00:53:02] Server Plugins
+[00:53:02] --------------
+[00:53:02]  Loading plugin: streamer
+[00:53:02] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:53:02]   Loaded.
+[00:53:02]  Loading plugin: sscanf
+[00:53:02] 
+
+[00:53:02]  ===============================
+
+[00:53:02]       sscanf plugin loaded.     
+
+[00:53:02]          Version:  2.8.3        
+
+[00:53:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:53:02]  ===============================
+
+[00:53:02]   Loaded.
+[00:53:02]  Loading plugin: Whirlpool
+[00:53:02]  
+[00:53:02]  ==================
+[00:53:02]  
+[00:53:02]   Whirlpool loaded
+[00:53:02]  
+[00:53:02]  ==================
+[00:53:02]  
+[00:53:02]   Loaded.
+[00:53:02]  Loading plugin: QuaternionStuff
+[00:53:02]   Loaded.
+[00:53:02]  Loading plugin: FCNPC
+[00:53:02] 
+[00:53:02] -------------------------------------------------
+[00:53:02]      FCNPC - Fully Controllable NPC v1.7.6
+[00:53:02]          Windows SA-MP 0.3.7 R2
+[00:53:02]           Oct  7 2017 at 15:33:28
+[00:53:02] 
+[00:53:02]   Author:       OrMisicL (2013 - 2015)
+[00:53:02]   Continued by: ziggi (2016 - present)
+[00:53:02]   Contributors: kurta999, Neutralneu
+[00:53:02] -------------------------------------------------
+[00:53:02] 
+[00:53:02] Loading...
+[00:53:02]   Loaded.
+[00:53:02]  Loading plugin: RouteConnectorPlugin
+[00:53:03]   Loaded.
+[00:53:03]  Loading plugin: ColAndreas
+[00:53:03] *********************
+[00:53:03] ** Created By:     **
+[00:53:03] ** [uL]Chris42O    **
+[00:53:03] ** [uL]Slice       **
+[00:53:03] ** [uL]Pottus      **
+[00:53:03] *********************
+[00:53:03] No collision data found.
+[00:53:03] *********************
+[00:53:03]   ColAndreas Loaded
+[00:53:03]    v1.4.0
+[00:53:03] *********************
+[00:53:03]   Loaded.
+[00:53:03]  Loading plugin: nativechecker
+[00:53:03]   Loaded.
+[00:53:03]  Loaded 8 plugins.
+
+[00:53:03] 
+[00:53:03] Filterscripts
+[00:53:03] ---------------
+[00:53:03]   Loaded 0 filterscripts.
+
+[00:53:03] AMX (8038488) loaded
+[00:53:03] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[00:53:03] 
+----------------------------------
+[00:53:03]   Bare Script
+
+[00:53:03] ----------------------------------
+
+[00:53:03] Number of vehicle models: 0
+[00:53:11] [connection] incoming connection: 127.0.0.1:58474 id: 0
+[00:53:12] [join] Inuzuka has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:59:38] filterscripts = ""  (string)
+[00:59:38] 
+[00:59:38] Server Plugins
+[00:59:38] --------------
+[00:59:38]  Loading plugin: streamer
+[00:59:38] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: sscanf
+[00:59:38] 
+
+[00:59:38]  ===============================
+
+[00:59:38]       sscanf plugin loaded.     
+
+[00:59:38]          Version:  2.8.3        
+
+[00:59:38]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:59:38]  ===============================
+
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: Whirlpool
+[00:59:38]  
+[00:59:38]  ==================
+[00:59:38]  
+[00:59:38]   Whirlpool loaded
+[00:59:38]  
+[00:59:38]  ==================
+[00:59:38]  
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: QuaternionStuff
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: FCNPC
+[00:59:38] 
+[00:59:38] -------------------------------------------------
+[00:59:38]      FCNPC - Fully Controllable NPC v1.7.6
+[00:59:38]          Windows SA-MP 0.3.7 R2
+[00:59:38]           Oct  7 2017 at 15:33:28
+[00:59:38] 
+[00:59:38]   Author:       OrMisicL (2013 - 2015)
+[00:59:38]   Continued by: ziggi (2016 - present)
+[00:59:38]   Contributors: kurta999, Neutralneu
+[00:59:38] -------------------------------------------------
+[00:59:38] 
+[00:59:38] Loading...
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: RouteConnectorPlugin
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: ColAndreas
+[00:59:38] *********************
+[00:59:38] ** Created By:     **
+[00:59:38] ** [uL]Chris42O    **
+[00:59:38] ** [uL]Slice       **
+[00:59:38] ** [uL]Pottus      **
+[00:59:38] *********************
+[00:59:38] No collision data found.
+[00:59:38] *********************
+[00:59:38]   ColAndreas Loaded
+[00:59:38]    v1.4.0
+[00:59:38] *********************
+[00:59:38]   Loaded.
+[00:59:38]  Loading plugin: nativechecker
+[00:59:38]   Loaded.
+[00:59:38]  Loaded 8 plugins.
+
+[00:59:39] 
+[00:59:39] Filterscripts
+[00:59:39] ---------------
+[00:59:39]   Loaded 0 filterscripts.
+
+[00:59:39] AMX (35104856) loaded
+[00:59:39] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[00:59:39] 
+----------------------------------
+[00:59:39]   Bare Script
+
+[00:59:39] ----------------------------------
+
+[00:59:39] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:59:50] filterscripts = ""  (string)
+[00:59:50] 
+[00:59:50] Server Plugins
+[00:59:50] --------------
+[00:59:50]  Loading plugin: streamer
+[00:59:50] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:59:50]   Loaded.
+[00:59:50]  Loading plugin: sscanf
+[00:59:50] 
+
+[00:59:50]  ===============================
+
+[00:59:50]       sscanf plugin loaded.     
+
+[00:59:50]          Version:  2.8.3        
+
+[00:59:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:59:50]  ===============================
+
+[00:59:50]   Loaded.
+[00:59:50]  Loading plugin: Whirlpool
+[00:59:50]  
+[00:59:50]  ==================
+[00:59:50]  
+[00:59:50]   Whirlpool loaded
+[00:59:50]  
+[00:59:50]  ==================
+[00:59:50]  
+[00:59:50]   Loaded.
+[00:59:50]  Loading plugin: QuaternionStuff
+[00:59:50]   Loaded.
+[00:59:50]  Loading plugin: FCNPC
+[00:59:50] 
+[00:59:50] -------------------------------------------------
+[00:59:50]      FCNPC - Fully Controllable NPC v1.7.6
+[00:59:51]          Windows SA-MP 0.3.7 R2
+[00:59:51]           Oct  7 2017 at 15:33:28
+[00:59:51] 
+[00:59:51]   Author:       OrMisicL (2013 - 2015)
+[00:59:51]   Continued by: ziggi (2016 - present)
+[00:59:51]   Contributors: kurta999, Neutralneu
+[00:59:51] -------------------------------------------------
+[00:59:51] 
+[00:59:51] Loading...
+[00:59:51]   Loaded.
+[00:59:51]  Loading plugin: RouteConnectorPlugin
+[00:59:51]   Loaded.
+[00:59:51]  Loading plugin: ColAndreas
+[00:59:51] *********************
+[00:59:51] ** Created By:     **
+[00:59:51] ** [uL]Chris42O    **
+[00:59:51] ** [uL]Slice       **
+[00:59:51] ** [uL]Pottus      **
+[00:59:51] *********************
+[00:59:51] No collision data found.
+[00:59:51] *********************
+[00:59:51]   ColAndreas Loaded
+[00:59:51]    v1.4.0
+[00:59:51] *********************
+[00:59:51]   Loaded.
+[00:59:51]  Loading plugin: nativechecker
+[00:59:51]   Loaded.
+[00:59:51]  Loaded 8 plugins.
+
+[00:59:51] 
+[00:59:51] Filterscripts
+[00:59:51] ---------------
+[00:59:51]   Loaded 0 filterscripts.
+
+[00:59:51] AMX (32876632) loaded
+[00:59:51] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[00:59:51] 
+----------------------------------
+[00:59:51]   Bare Script
+
+[00:59:51] ----------------------------------
+
+[00:59:51] Number of vehicle models: 0
+[00:59:57] [connection] incoming connection: 127.0.0.1:57898 id: 0
+[00:59:57] [join] Inuzuka has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:01:55] filterscripts = ""  (string)
+[01:01:55] 
+[01:01:55] Server Plugins
+[01:01:55] --------------
+[01:01:55]  Loading plugin: streamer
+[01:01:55] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: sscanf
+[01:01:55] 
+
+[01:01:55]  ===============================
+
+[01:01:55]       sscanf plugin loaded.     
+
+[01:01:55]          Version:  2.8.3        
+
+[01:01:55]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:01:55]  ===============================
+
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: Whirlpool
+[01:01:55]  
+[01:01:55]  ==================
+[01:01:55]  
+[01:01:55]   Whirlpool loaded
+[01:01:55]  
+[01:01:55]  ==================
+[01:01:55]  
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: QuaternionStuff
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: FCNPC
+[01:01:55] 
+[01:01:55] -------------------------------------------------
+[01:01:55]      FCNPC - Fully Controllable NPC v1.7.6
+[01:01:55]          Windows SA-MP 0.3.7 R2
+[01:01:55]           Oct  7 2017 at 15:33:28
+[01:01:55] 
+[01:01:55]   Author:       OrMisicL (2013 - 2015)
+[01:01:55]   Continued by: ziggi (2016 - present)
+[01:01:55]   Contributors: kurta999, Neutralneu
+[01:01:55] -------------------------------------------------
+[01:01:55] 
+[01:01:55] Loading...
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: RouteConnectorPlugin
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: ColAndreas
+[01:01:55] *********************
+[01:01:55] ** Created By:     **
+[01:01:55] ** [uL]Chris42O    **
+[01:01:55] ** [uL]Slice       **
+[01:01:55] ** [uL]Pottus      **
+[01:01:55] *********************
+[01:01:55] No collision data found.
+[01:01:55] *********************
+[01:01:55]   ColAndreas Loaded
+[01:01:55]    v1.4.0
+[01:01:55] *********************
+[01:01:55]   Loaded.
+[01:01:55]  Loading plugin: nativechecker
+[01:01:55]   Loaded.
+[01:01:55]  Loaded 8 plugins.
+
+[01:01:55] 
+[01:01:55] Filterscripts
+[01:01:55] ---------------
+[01:01:55]   Loaded 0 filterscripts.
+
+[01:01:55] AMX (6006872) loaded
+[01:01:55] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:01:55] 
+----------------------------------
+[01:01:55]   Bare Script
+
+[01:01:55] ----------------------------------
+
+[01:01:55] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:02:11] filterscripts = ""  (string)
+[01:02:11] 
+[01:02:11] Server Plugins
+[01:02:11] --------------
+[01:02:11]  Loading plugin: streamer
+[01:02:11] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: sscanf
+[01:02:11] 
+
+[01:02:11]  ===============================
+
+[01:02:11]       sscanf plugin loaded.     
+
+[01:02:11]          Version:  2.8.3        
+
+[01:02:11]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:02:11]  ===============================
+
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: Whirlpool
+[01:02:11]  
+[01:02:11]  ==================
+[01:02:11]  
+[01:02:11]   Whirlpool loaded
+[01:02:11]  
+[01:02:11]  ==================
+[01:02:11]  
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: QuaternionStuff
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: FCNPC
+[01:02:11] 
+[01:02:11] -------------------------------------------------
+[01:02:11]      FCNPC - Fully Controllable NPC v1.7.6
+[01:02:11]          Windows SA-MP 0.3.7 R2
+[01:02:11]           Oct  7 2017 at 15:33:28
+[01:02:11] 
+[01:02:11]   Author:       OrMisicL (2013 - 2015)
+[01:02:11]   Continued by: ziggi (2016 - present)
+[01:02:11]   Contributors: kurta999, Neutralneu
+[01:02:11] -------------------------------------------------
+[01:02:11] 
+[01:02:11] Loading...
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: RouteConnectorPlugin
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: ColAndreas
+[01:02:11] *********************
+[01:02:11] ** Created By:     **
+[01:02:11] ** [uL]Chris42O    **
+[01:02:11] ** [uL]Slice       **
+[01:02:11] ** [uL]Pottus      **
+[01:02:11] *********************
+[01:02:11] No collision data found.
+[01:02:11] *********************
+[01:02:11]   ColAndreas Loaded
+[01:02:11]    v1.4.0
+[01:02:11] *********************
+[01:02:11]   Loaded.
+[01:02:11]  Loading plugin: nativechecker
+[01:02:11]   Loaded.
+[01:02:11]  Loaded 8 plugins.
+
+[01:02:11] 
+[01:02:11] Filterscripts
+[01:02:11] ---------------
+[01:02:11]   Loaded 0 filterscripts.
+
+[01:02:11] AMX (32811096) loaded
+[01:02:11] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:02:11] 
+----------------------------------
+[01:02:11]   Bare Script
+
+[01:02:11] ----------------------------------
+
+[01:02:11] Number of vehicle models: 0
+[01:02:15] [connection] incoming connection: 127.0.0.1:50955 id: 0
+[01:02:15] [join] Inuzuka has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:07:24] filterscripts = ""  (string)
+[01:07:24] 
+[01:07:24] Server Plugins
+[01:07:24] --------------
+[01:07:24]  Loading plugin: streamer
+[01:07:24] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: sscanf
+[01:07:24] 
+
+[01:07:24]  ===============================
+
+[01:07:24]       sscanf plugin loaded.     
+
+[01:07:24]          Version:  2.8.3        
+
+[01:07:24]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:07:24]  ===============================
+
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: Whirlpool
+[01:07:24]  
+[01:07:24]  ==================
+[01:07:24]  
+[01:07:24]   Whirlpool loaded
+[01:07:24]  
+[01:07:24]  ==================
+[01:07:24]  
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: QuaternionStuff
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: FCNPC
+[01:07:24] 
+[01:07:24] -------------------------------------------------
+[01:07:24]      FCNPC - Fully Controllable NPC v1.7.6
+[01:07:24]          Windows SA-MP 0.3.7 R2
+[01:07:24]           Oct  7 2017 at 15:33:28
+[01:07:24] 
+[01:07:24]   Author:       OrMisicL (2013 - 2015)
+[01:07:24]   Continued by: ziggi (2016 - present)
+[01:07:24]   Contributors: kurta999, Neutralneu
+[01:07:24] -------------------------------------------------
+[01:07:24] 
+[01:07:24] Loading...
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: RouteConnectorPlugin
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: ColAndreas
+[01:07:24] *********************
+[01:07:24] ** Created By:     **
+[01:07:24] ** [uL]Chris42O    **
+[01:07:24] ** [uL]Slice       **
+[01:07:24] ** [uL]Pottus      **
+[01:07:24] *********************
+[01:07:24] No collision data found.
+[01:07:24] *********************
+[01:07:24]   ColAndreas Loaded
+[01:07:24]    v1.4.0
+[01:07:24] *********************
+[01:07:24]   Loaded.
+[01:07:24]  Loading plugin: nativechecker
+[01:07:24]   Loaded.
+[01:07:24]  Loaded 8 plugins.
+
+[01:07:25] 
+[01:07:25] Filterscripts
+[01:07:25] ---------------
+[01:07:25]   Loaded 0 filterscripts.
+
+[01:07:25] AMX (34383960) loaded
+[01:07:25] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:07:25] 
+----------------------------------
+[01:07:25]   Bare Script
+
+[01:07:25] ----------------------------------
+
+[01:07:25] Number of vehicle models: 0
+[01:07:29] [connection] incoming connection: 127.0.0.1:64147 id: 0
+[01:07:30] [join] Inuzuka has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:11:44] filterscripts = ""  (string)
+[01:11:44] 
+[01:11:44] Server Plugins
+[01:11:44] --------------
+[01:11:44]  Loading plugin: streamer
+[01:11:44] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: sscanf
+[01:11:44] 
+
+[01:11:44]  ===============================
+
+[01:11:44]       sscanf plugin loaded.     
+
+[01:11:44]          Version:  2.8.3        
+
+[01:11:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:11:44]  ===============================
+
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: Whirlpool
+[01:11:44]  
+[01:11:44]  ==================
+[01:11:44]  
+[01:11:44]   Whirlpool loaded
+[01:11:44]  
+[01:11:44]  ==================
+[01:11:44]  
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: QuaternionStuff
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: FCNPC
+[01:11:44] 
+[01:11:44] -------------------------------------------------
+[01:11:44]      FCNPC - Fully Controllable NPC v1.7.6
+[01:11:44]          Windows SA-MP 0.3.7 R2
+[01:11:44]           Oct  7 2017 at 15:33:28
+[01:11:44] 
+[01:11:44]   Author:       OrMisicL (2013 - 2015)
+[01:11:44]   Continued by: ziggi (2016 - present)
+[01:11:44]   Contributors: kurta999, Neutralneu
+[01:11:44] -------------------------------------------------
+[01:11:44] 
+[01:11:44] Loading...
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: RouteConnectorPlugin
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: ColAndreas
+[01:11:44] *********************
+[01:11:44] ** Created By:     **
+[01:11:44] ** [uL]Chris42O    **
+[01:11:44] ** [uL]Slice       **
+[01:11:44] ** [uL]Pottus      **
+[01:11:44] *********************
+[01:11:44] No collision data found.
+[01:11:44] *********************
+[01:11:44]   ColAndreas Loaded
+[01:11:44]    v1.4.0
+[01:11:44] *********************
+[01:11:44]   Loaded.
+[01:11:44]  Loading plugin: nativechecker
+[01:11:44]   Loaded.
+[01:11:44]  Loaded 8 plugins.
+
+[01:11:44] 
+[01:11:44] Filterscripts
+[01:11:44] ---------------
+[01:11:44]   Loaded 0 filterscripts.
+
+[01:11:44] AMX (33204312) loaded
+[01:11:44] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:11:44] 
+----------------------------------
+[01:11:44]   Bare Script
+
+[01:11:44] ----------------------------------
+
+[01:11:44] Number of vehicle models: 0
+[01:12:33] [connection] incoming connection: 127.0.0.1:56047 id: 0
+[01:12:34] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:15:30] filterscripts = ""  (string)
+[01:15:30] 
+[01:15:30] Server Plugins
+[01:15:30] --------------
+[01:15:30]  Loading plugin: streamer
+[01:15:30] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: sscanf
+[01:15:30] 
+
+[01:15:30]  ===============================
+
+[01:15:30]       sscanf plugin loaded.     
+
+[01:15:30]          Version:  2.8.3        
+
+[01:15:30]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:15:30]  ===============================
+
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: Whirlpool
+[01:15:30]  
+[01:15:30]  ==================
+[01:15:30]  
+[01:15:30]   Whirlpool loaded
+[01:15:30]  
+[01:15:30]  ==================
+[01:15:30]  
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: QuaternionStuff
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: FCNPC
+[01:15:30] 
+[01:15:30] -------------------------------------------------
+[01:15:30]      FCNPC - Fully Controllable NPC v1.7.6
+[01:15:30]          Windows SA-MP 0.3.7 R2
+[01:15:30]           Oct  7 2017 at 15:33:28
+[01:15:30] 
+[01:15:30]   Author:       OrMisicL (2013 - 2015)
+[01:15:30]   Continued by: ziggi (2016 - present)
+[01:15:30]   Contributors: kurta999, Neutralneu
+[01:15:30] -------------------------------------------------
+[01:15:30] 
+[01:15:30] Loading...
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: RouteConnectorPlugin
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: ColAndreas
+[01:15:30] *********************
+[01:15:30] ** Created By:     **
+[01:15:30] ** [uL]Chris42O    **
+[01:15:30] ** [uL]Slice       **
+[01:15:30] ** [uL]Pottus      **
+[01:15:30] *********************
+[01:15:30] No collision data found.
+[01:15:30] *********************
+[01:15:30]   ColAndreas Loaded
+[01:15:30]    v1.4.0
+[01:15:30] *********************
+[01:15:30]   Loaded.
+[01:15:30]  Loading plugin: nativechecker
+[01:15:30]   Loaded.
+[01:15:30]  Loaded 8 plugins.
+
+[01:15:30] 
+[01:15:30] Filterscripts
+[01:15:30] ---------------
+[01:15:30]   Loaded 0 filterscripts.
+
+[01:15:30] AMX (32614488) loaded
+[01:15:30] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:15:30] 
+----------------------------------
+[01:15:30]   Bare Script
+
+[01:15:30] ----------------------------------
+
+[01:15:30] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:15:50] filterscripts = ""  (string)
+[01:15:50] 
+[01:15:50] Server Plugins
+[01:15:50] --------------
+[01:15:50]  Loading plugin: streamer
+[01:15:50] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:15:50]   Loaded.
+[01:15:50]  Loading plugin: sscanf
+[01:15:50] 
+
+[01:15:50]  ===============================
+
+[01:15:50]       sscanf plugin loaded.     
+
+[01:15:50]          Version:  2.8.3        
+
+[01:15:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:15:50]  ===============================
+
+[01:15:50]   Loaded.
+[01:15:50]  Loading plugin: Whirlpool
+[01:15:50]  
+[01:15:50]  ==================
+[01:15:50]  
+[01:15:50]   Whirlpool loaded
+[01:15:50]  
+[01:15:50]  ==================
+[01:15:50]  
+[01:15:50]   Loaded.
+[01:15:50]  Loading plugin: QuaternionStuff
+[01:15:51]   Loaded.
+[01:15:51]  Loading plugin: FCNPC
+[01:15:51] 
+[01:15:51] -------------------------------------------------
+[01:15:51]      FCNPC - Fully Controllable NPC v1.7.6
+[01:15:51]          Windows SA-MP 0.3.7 R2
+[01:15:51]           Oct  7 2017 at 15:33:28
+[01:15:51] 
+[01:15:51]   Author:       OrMisicL (2013 - 2015)
+[01:15:51]   Continued by: ziggi (2016 - present)
+[01:15:51]   Contributors: kurta999, Neutralneu
+[01:15:51] -------------------------------------------------
+[01:15:51] 
+[01:15:51] Loading...
+[01:15:51]   Loaded.
+[01:15:51]  Loading plugin: RouteConnectorPlugin
+[01:15:51]   Loaded.
+[01:15:51]  Loading plugin: ColAndreas
+[01:15:51] *********************
+[01:15:51] ** Created By:     **
+[01:15:51] ** [uL]Chris42O    **
+[01:15:51] ** [uL]Slice       **
+[01:15:51] ** [uL]Pottus      **
+[01:15:51] *********************
+[01:15:51] No collision data found.
+[01:15:51] *********************
+[01:15:51]   ColAndreas Loaded
+[01:15:51]    v1.4.0
+[01:15:51] *********************
+[01:15:51]   Loaded.
+[01:15:51]  Loading plugin: nativechecker
+[01:15:51]   Loaded.
+[01:15:51]  Loaded 8 plugins.
+
+[01:15:51] 
+[01:15:51] Filterscripts
+[01:15:51] ---------------
+[01:15:51]   Loaded 0 filterscripts.
+
+[01:15:51] AMX (37005400) loaded
+[01:15:51] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:15:51] 
+----------------------------------
+[01:15:51]   Bare Script
+
+[01:15:51] ----------------------------------
+
+[01:15:51] Number of vehicle models: 0
+[01:15:55] [connection] incoming connection: 127.0.0.1:63868 id: 0
+[01:15:55] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:16:54] filterscripts = ""  (string)
+[01:16:54] 
+[01:16:54] Server Plugins
+[01:16:54] --------------
+[01:16:54]  Loading plugin: streamer
+[01:16:54] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: sscanf
+[01:16:54] 
+
+[01:16:54]  ===============================
+
+[01:16:54]       sscanf plugin loaded.     
+
+[01:16:54]          Version:  2.8.3        
+
+[01:16:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:16:54]  ===============================
+
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: Whirlpool
+[01:16:54]  
+[01:16:54]  ==================
+[01:16:54]  
+[01:16:54]   Whirlpool loaded
+[01:16:54]  
+[01:16:54]  ==================
+[01:16:54]  
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: QuaternionStuff
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: FCNPC
+[01:16:54] 
+[01:16:54] -------------------------------------------------
+[01:16:54]      FCNPC - Fully Controllable NPC v1.7.6
+[01:16:54]          Windows SA-MP 0.3.7 R2
+[01:16:54]           Oct  7 2017 at 15:33:28
+[01:16:54] 
+[01:16:54]   Author:       OrMisicL (2013 - 2015)
+[01:16:54]   Continued by: ziggi (2016 - present)
+[01:16:54]   Contributors: kurta999, Neutralneu
+[01:16:54] -------------------------------------------------
+[01:16:54] 
+[01:16:54] Loading...
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: RouteConnectorPlugin
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: ColAndreas
+[01:16:54] *********************
+[01:16:54] ** Created By:     **
+[01:16:54] ** [uL]Chris42O    **
+[01:16:54] ** [uL]Slice       **
+[01:16:54] ** [uL]Pottus      **
+[01:16:54] *********************
+[01:16:54] No collision data found.
+[01:16:54] *********************
+[01:16:54]   ColAndreas Loaded
+[01:16:54]    v1.4.0
+[01:16:54] *********************
+[01:16:54]   Loaded.
+[01:16:54]  Loading plugin: nativechecker
+[01:16:54]   Loaded.
+[01:16:54]  Loaded 8 plugins.
+
+[01:16:54] 
+[01:16:54] Filterscripts
+[01:16:54] ---------------
+[01:16:54]   Loaded 0 filterscripts.
+
+[01:16:54] AMX (31369304) loaded
+[01:16:54] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:16:54] 
+----------------------------------
+[01:16:54]   Bare Script
+
+[01:16:54] ----------------------------------
+
+[01:16:54] Number of vehicle models: 0
+[01:17:04] [connection] incoming connection: 127.0.0.1:57757 id: 0
+[01:17:04] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:18:25] filterscripts = ""  (string)
+[01:18:25] 
+[01:18:25] Server Plugins
+[01:18:25] --------------
+[01:18:25]  Loading plugin: streamer
+[01:18:25] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: sscanf
+[01:18:25] 
+
+[01:18:25]  ===============================
+
+[01:18:25]       sscanf plugin loaded.     
+
+[01:18:25]          Version:  2.8.3        
+
+[01:18:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:18:25]  ===============================
+
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: Whirlpool
+[01:18:25]  
+[01:18:25]  ==================
+[01:18:25]  
+[01:18:25]   Whirlpool loaded
+[01:18:25]  
+[01:18:25]  ==================
+[01:18:25]  
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: QuaternionStuff
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: FCNPC
+[01:18:25] 
+[01:18:25] -------------------------------------------------
+[01:18:25]      FCNPC - Fully Controllable NPC v1.7.6
+[01:18:25]          Windows SA-MP 0.3.7 R2
+[01:18:25]           Oct  7 2017 at 15:33:28
+[01:18:25] 
+[01:18:25]   Author:       OrMisicL (2013 - 2015)
+[01:18:25]   Continued by: ziggi (2016 - present)
+[01:18:25]   Contributors: kurta999, Neutralneu
+[01:18:25] -------------------------------------------------
+[01:18:25] 
+[01:18:25] Loading...
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: RouteConnectorPlugin
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: ColAndreas
+[01:18:25] *********************
+[01:18:25] ** Created By:     **
+[01:18:25] ** [uL]Chris42O    **
+[01:18:25] ** [uL]Slice       **
+[01:18:25] ** [uL]Pottus      **
+[01:18:25] *********************
+[01:18:25] No collision data found.
+[01:18:25] *********************
+[01:18:25]   ColAndreas Loaded
+[01:18:25]    v1.4.0
+[01:18:25] *********************
+[01:18:25]   Loaded.
+[01:18:25]  Loading plugin: nativechecker
+[01:18:25]   Loaded.
+[01:18:25]  Loaded 8 plugins.
+
+[01:18:26] 
+[01:18:26] Filterscripts
+[01:18:26] ---------------
+[01:18:26]   Loaded 0 filterscripts.
+
+[01:18:26] AMX (8890456) loaded
+[01:18:26] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:18:26] 
+----------------------------------
+[01:18:26]   Bare Script
+
+[01:18:26] ----------------------------------
+
+[01:18:26] Number of vehicle models: 0
+[01:18:29] [connection] incoming connection: 127.0.0.1:52648 id: 0
+[01:18:29] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:20:59] filterscripts = ""  (string)
+[01:20:59] 
+[01:20:59] Server Plugins
+[01:20:59] --------------
+[01:20:59]  Loading plugin: streamer
+[01:20:59] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: sscanf
+[01:20:59] 
+
+[01:20:59]  ===============================
+
+[01:20:59]       sscanf plugin loaded.     
+
+[01:20:59]          Version:  2.8.3        
+
+[01:20:59]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:20:59]  ===============================
+
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: Whirlpool
+[01:20:59]  
+[01:20:59]  ==================
+[01:20:59]  
+[01:20:59]   Whirlpool loaded
+[01:20:59]  
+[01:20:59]  ==================
+[01:20:59]  
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: QuaternionStuff
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: FCNPC
+[01:20:59] 
+[01:20:59] -------------------------------------------------
+[01:20:59]      FCNPC - Fully Controllable NPC v1.7.6
+[01:20:59]          Windows SA-MP 0.3.7 R2
+[01:20:59]           Oct  7 2017 at 15:33:28
+[01:20:59] 
+[01:20:59]   Author:       OrMisicL (2013 - 2015)
+[01:20:59]   Continued by: ziggi (2016 - present)
+[01:20:59]   Contributors: kurta999, Neutralneu
+[01:20:59] -------------------------------------------------
+[01:20:59] 
+[01:20:59] Loading...
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: RouteConnectorPlugin
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: ColAndreas
+[01:20:59] *********************
+[01:20:59] ** Created By:     **
+[01:20:59] ** [uL]Chris42O    **
+[01:20:59] ** [uL]Slice       **
+[01:20:59] ** [uL]Pottus      **
+[01:20:59] *********************
+[01:20:59] No collision data found.
+[01:20:59] *********************
+[01:20:59]   ColAndreas Loaded
+[01:20:59]    v1.4.0
+[01:20:59] *********************
+[01:20:59]   Loaded.
+[01:20:59]  Loading plugin: nativechecker
+[01:20:59]   Loaded.
+[01:20:59]  Loaded 8 plugins.
+
+[01:21:00] 
+[01:21:00] Filterscripts
+[01:21:00] ---------------
+[01:21:00]   Loaded 0 filterscripts.
+
+[01:21:00] AMX (35629144) loaded
+[01:21:00] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:21:00] 
+----------------------------------
+[01:21:00]   Bare Script
+
+[01:21:00] ----------------------------------
+
+[01:21:00] Number of vehicle models: 0
+[01:21:09] [connection] incoming connection: 127.0.0.1:57173 id: 0
+[01:21:09] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:22:28] filterscripts = ""  (string)
+[01:22:28] 
+[01:22:28] Server Plugins
+[01:22:28] --------------
+[01:22:28]  Loading plugin: streamer
+[01:22:28] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: sscanf
+[01:22:28] 
+
+[01:22:28]  ===============================
+
+[01:22:28]       sscanf plugin loaded.     
+
+[01:22:28]          Version:  2.8.3        
+
+[01:22:28]   (c) 2018 Alex "Y_Less" Cole  
+
+[01:22:28]  ===============================
+
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: Whirlpool
+[01:22:28]  
+[01:22:28]  ==================
+[01:22:28]  
+[01:22:28]   Whirlpool loaded
+[01:22:28]  
+[01:22:28]  ==================
+[01:22:28]  
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: QuaternionStuff
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: FCNPC
+[01:22:28] 
+[01:22:28] -------------------------------------------------
+[01:22:28]      FCNPC - Fully Controllable NPC v1.7.6
+[01:22:28]          Windows SA-MP 0.3.7 R2
+[01:22:28]           Oct  7 2017 at 15:33:28
+[01:22:28] 
+[01:22:28]   Author:       OrMisicL (2013 - 2015)
+[01:22:28]   Continued by: ziggi (2016 - present)
+[01:22:28]   Contributors: kurta999, Neutralneu
+[01:22:28] -------------------------------------------------
+[01:22:28] 
+[01:22:28] Loading...
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: RouteConnectorPlugin
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: ColAndreas
+[01:22:28] *********************
+[01:22:28] ** Created By:     **
+[01:22:28] ** [uL]Chris42O    **
+[01:22:28] ** [uL]Slice       **
+[01:22:28] ** [uL]Pottus      **
+[01:22:28] *********************
+[01:22:28] No collision data found.
+[01:22:28] *********************
+[01:22:28]   ColAndreas Loaded
+[01:22:28]    v1.4.0
+[01:22:28] *********************
+[01:22:28]   Loaded.
+[01:22:28]  Loading plugin: nativechecker
+[01:22:28]   Loaded.
+[01:22:28]  Loaded 8 plugins.
+
+[01:22:29] 
+[01:22:29] Filterscripts
+[01:22:29] ---------------
+[01:22:29]   Loaded 0 filterscripts.
+
+[01:22:29] AMX (31762520) loaded
+[01:22:29] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[01:22:29] 
+----------------------------------
+[01:22:29]   Bare Script
+
+[01:22:29] ----------------------------------
+
+[01:22:29] Number of vehicle models: 0
+[01:22:39] [connection] incoming connection: 127.0.0.1:57751 id: 0
+[01:22:39] [join] Romy has joined the server (0:127.0.0.1)
