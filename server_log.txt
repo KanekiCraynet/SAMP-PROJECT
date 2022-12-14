@@ -1,0 +1,604 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:22:00] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:22:02] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:22:04] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:55] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:56] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:57] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:58] Error: Your password must be changed from the default password, please change it.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:24:37] filterscripts = ""  (string)
+[19:24:37] 
+[19:24:37] Server Plugins
+[19:24:37] --------------
+[19:24:37]  Loaded 0 plugins.
+
+[19:24:37] 
+[19:24:37] Filterscripts
+[19:24:37] ---------------
+[19:24:37]   Loaded 0 filterscripts.
+
+[19:24:37] Loaded 3 vehicles from: vehicles/trains.txt
+[19:24:37] Loaded 3 vehicles from: vehicles/pilots.txt
+[19:24:37] Loaded 15 vehicles from: vehicles/lv_law.txt
+[19:24:37] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[19:24:37] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[19:24:37] Loaded 38 vehicles from: vehicles/sf_law.txt
+[19:24:37] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[19:24:38] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[19:24:38] Loaded 24 vehicles from: vehicles/ls_law.txt
+[19:24:38] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[19:24:38] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[19:24:38] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[19:24:38] Loaded 71 vehicles from: vehicles/whetstone.txt
+[19:24:38] Loaded 168 vehicles from: vehicles/bone.txt
+[19:24:38] Loaded 61 vehicles from: vehicles/flint.txt
+[19:24:38] Loaded 96 vehicles from: vehicles/tierra.txt
+[19:24:38] Loaded 96 vehicles from: vehicles/red_county.txt
+[19:24:38] Total vehicles from files: 1781
+[19:24:38] 
+---------------------------------------
+[19:24:38] Running Grand Larceny - by the SA-MP team
+
+[19:24:38] ---------------------------------------
+
+[19:24:38] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:38] filterscripts = ""  (string)
+[21:08:38] 
+[21:08:38] Server Plugins
+[21:08:38] --------------
+[21:08:38]  Loaded 0 plugins.
+
+[21:08:38] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:08:38] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:40] filterscripts = ""  (string)
+[21:08:40] 
+[21:08:40] Server Plugins
+[21:08:40] --------------
+[21:08:40]  Loaded 0 plugins.
+
+[21:08:40] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:08:40] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:41] filterscripts = ""  (string)
+[21:08:41] 
+[21:08:41] Server Plugins
+[21:08:41] --------------
+[21:08:41]  Loaded 0 plugins.
+
+[21:08:41] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:08:41] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:42] filterscripts = ""  (string)
+[21:08:42] 
+[21:08:42] Server Plugins
+[21:08:42] --------------
+[21:08:42]  Loaded 0 plugins.
+
+[21:08:42] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:08:42] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:09:32] filterscripts = ""  (string)
+[21:09:32] 
+[21:09:32] Server Plugins
+[21:09:32] --------------
+[21:09:32]  Loading plugin: streamer
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: sscanf
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: Whirlpool
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: QuaternionStuff
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: FCNPC
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: RouteConnectorPlugin
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: ColAndreas
+[21:09:32]   Failed.
+[21:09:32]  Loading plugin: nativechecker
+[21:09:32]   Failed.
+[21:09:32]  Loaded 0 plugins.
+
+[21:09:32] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:09:32] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:09:33] filterscripts = ""  (string)
+[21:09:33] 
+[21:09:33] Server Plugins
+[21:09:33] --------------
+[21:09:33]  Loading plugin: streamer
+[21:09:33]   Failed.
+[21:09:33]  Loading plugin: sscanf
+[21:09:33]   Failed.
+[21:09:33]  Loading plugin: Whirlpool
+[21:09:33]   Failed.
+[21:09:33]  Loading plugin: QuaternionStuff
+[21:09:33]   Failed.
+[21:09:33]  Loading plugin: FCNPC
+[21:09:33]   Failed.
+[21:09:33]  Loading plugin: RouteConnectorPlugin
+[21:09:34]   Failed.
+[21:09:34]  Loading plugin: ColAndreas
+[21:09:34]   Failed.
+[21:09:34]  Loading plugin: nativechecker
+[21:09:34]   Failed.
+[21:09:34]  Loaded 0 plugins.
+
+[21:09:34] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:09:34] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:10:06] filterscripts = ""  (string)
+[21:10:06] 
+[21:10:06] Server Plugins
+[21:10:06] --------------
+[21:10:06]  Loading plugin: streamer
+[21:10:06] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:10:06]   Loaded.
+[21:10:06]  Loading plugin: sscanf
+[21:10:07] 
+
+[21:10:07]  ===============================
+
+[21:10:07]       sscanf plugin loaded.     
+
+[21:10:07]          Version:  2.8.3        
+
+[21:10:07]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:10:07]  ===============================
+
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: Whirlpool
+[21:10:07]  
+[21:10:07]  ==================
+[21:10:07]  
+[21:10:07]   Whirlpool loaded
+[21:10:07]  
+[21:10:07]  ==================
+[21:10:07]  
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: QuaternionStuff
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: FCNPC
+[21:10:07] 
+[21:10:07] -------------------------------------------------
+[21:10:07]      FCNPC - Fully Controllable NPC v1.7.6
+[21:10:07]          Windows SA-MP 0.3.7 R2
+[21:10:07]           Oct  7 2017 at 15:33:28
+[21:10:07] 
+[21:10:07]   Author:       OrMisicL (2013 - 2015)
+[21:10:07]   Continued by: ziggi (2016 - present)
+[21:10:07]   Contributors: kurta999, Neutralneu
+[21:10:07] -------------------------------------------------
+[21:10:07] 
+[21:10:07] Loading...
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: RouteConnectorPlugin
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: ColAndreas
+[21:10:07] *********************
+[21:10:07] ** Created By:     **
+[21:10:07] ** [uL]Chris42O    **
+[21:10:07] ** [uL]Slice       **
+[21:10:07] ** [uL]Pottus      **
+[21:10:07] *********************
+[21:10:07] No collision data found.
+[21:10:07] *********************
+[21:10:07]   ColAndreas Loaded
+[21:10:07]    v1.4.0
+[21:10:07] *********************
+[21:10:07]   Loaded.
+[21:10:07]  Loading plugin: nativechecker
+[21:10:07]   Loaded.
+[21:10:07]  Loaded 8 plugins.
+
+[21:10:07] I couldn't load any gamemode scripts. Please verify your server.cfg
+[21:10:07] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:10:41] filterscripts = ""  (string)
+[21:10:41] 
+[21:10:41] Server Plugins
+[21:10:41] --------------
+[21:10:41]  Loading plugin: streamer
+[21:10:41] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: sscanf
+[21:10:41] 
+
+[21:10:41]  ===============================
+
+[21:10:41]       sscanf plugin loaded.     
+
+[21:10:41]          Version:  2.8.3        
+
+[21:10:41]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:10:41]  ===============================
+
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: Whirlpool
+[21:10:41]  
+[21:10:41]  ==================
+[21:10:41]  
+[21:10:41]   Whirlpool loaded
+[21:10:41]  
+[21:10:41]  ==================
+[21:10:41]  
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: QuaternionStuff
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: FCNPC
+[21:10:41] 
+[21:10:41] -------------------------------------------------
+[21:10:41]      FCNPC - Fully Controllable NPC v1.7.6
+[21:10:41]          Windows SA-MP 0.3.7 R2
+[21:10:41]           Oct  7 2017 at 15:33:28
+[21:10:41] 
+[21:10:41]   Author:       OrMisicL (2013 - 2015)
+[21:10:41]   Continued by: ziggi (2016 - present)
+[21:10:41]   Contributors: kurta999, Neutralneu
+[21:10:41] -------------------------------------------------
+[21:10:41] 
+[21:10:41] Loading...
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: RouteConnectorPlugin
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: ColAndreas
+[21:10:41] *********************
+[21:10:41] ** Created By:     **
+[21:10:41] ** [uL]Chris42O    **
+[21:10:41] ** [uL]Slice       **
+[21:10:41] ** [uL]Pottus      **
+[21:10:41] *********************
+[21:10:41] No collision data found.
+[21:10:41] *********************
+[21:10:41]   ColAndreas Loaded
+[21:10:41]    v1.4.0
+[21:10:41] *********************
+[21:10:41]   Loaded.
+[21:10:41]  Loading plugin: nativechecker
+[21:10:41]   Loaded.
+[21:10:41]  Loaded 8 plugins.
+
+[21:10:41] 
+[21:10:41] Filterscripts
+[21:10:41] ---------------
+[21:10:41]   Loaded 0 filterscripts.
+
+[21:10:41] AMX (3713112) loaded
+[21:10:41] [FCNPC] Warning: Unable to create NPCs. The maxnpc limit in server.cfg is 0.
+[21:10:41] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[21:10:41] 
+----------------------------------
+[21:10:41]   Bare Script
+
+[21:10:41] ----------------------------------
+
+[21:10:41] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:11:22] filterscripts = ""  (string)
+[21:11:22] 
+[21:11:22] Server Plugins
+[21:11:22] --------------
+[21:11:22]  Loading plugin: streamer
+[21:11:22] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: sscanf
+[21:11:22] 
+
+[21:11:22]  ===============================
+
+[21:11:22]       sscanf plugin loaded.     
+
+[21:11:22]          Version:  2.8.3        
+
+[21:11:22]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:11:22]  ===============================
+
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: Whirlpool
+[21:11:22]  
+[21:11:22]  ==================
+[21:11:22]  
+[21:11:22]   Whirlpool loaded
+[21:11:22]  
+[21:11:22]  ==================
+[21:11:22]  
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: QuaternionStuff
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: FCNPC
+[21:11:22] 
+[21:11:22] -------------------------------------------------
+[21:11:22]      FCNPC - Fully Controllable NPC v1.7.6
+[21:11:22]          Windows SA-MP 0.3.7 R2
+[21:11:22]           Oct  7 2017 at 15:33:28
+[21:11:22] 
+[21:11:22]   Author:       OrMisicL (2013 - 2015)
+[21:11:22]   Continued by: ziggi (2016 - present)
+[21:11:22]   Contributors: kurta999, Neutralneu
+[21:11:22] -------------------------------------------------
+[21:11:22] 
+[21:11:22] Loading...
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: RouteConnectorPlugin
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: ColAndreas
+[21:11:22] *********************
+[21:11:22] ** Created By:     **
+[21:11:22] ** [uL]Chris42O    **
+[21:11:22] ** [uL]Slice       **
+[21:11:22] ** [uL]Pottus      **
+[21:11:22] *********************
+[21:11:22] No collision data found.
+[21:11:22] *********************
+[21:11:22]   ColAndreas Loaded
+[21:11:22]    v1.4.0
+[21:11:22] *********************
+[21:11:22]   Loaded.
+[21:11:22]  Loading plugin: nativechecker
+[21:11:22]   Loaded.
+[21:11:22]  Loaded 8 plugins.
+
+[21:11:22] 
+[21:11:22] Filterscripts
+[21:11:22] ---------------
+[21:11:22]   Loaded 0 filterscripts.
+
+[21:11:22] AMX (31434840) loaded
+[21:11:22] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[21:11:22] 
+----------------------------------
+[21:11:22]   Bare Script
+
+[21:11:22] ----------------------------------
+
+[21:11:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:12:10] filterscripts = ""  (string)
+[21:12:10] 
+[21:12:10] Server Plugins
+[21:12:10] --------------
+[21:12:10]  Loading plugin: streamer
+[21:12:10] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:12:10]   Loaded.
+[21:12:10]  Loading plugin: sscanf
+[21:12:10] 
+
+[21:12:10]  ===============================
+
+[21:12:10]       sscanf plugin loaded.     
+
+[21:12:10]          Version:  2.8.3        
+
+[21:12:10]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:12:10]  ===============================
+
+[21:12:10]   Loaded.
+[21:12:10]  Loading plugin: Whirlpool
+[21:12:10]  
+[21:12:10]  ==================
+[21:12:10]  
+[21:12:10]   Whirlpool loaded
+[21:12:10]  
+[21:12:10]  ==================
+[21:12:10]  
+[21:12:10]   Loaded.
+[21:12:10]  Loading plugin: QuaternionStuff
+[21:12:10]   Loaded.
+[21:12:10]  Loading plugin: FCNPC
+[21:12:11] 
+[21:12:11] -------------------------------------------------
+[21:12:11]      FCNPC - Fully Controllable NPC v1.7.6
+[21:12:11]          Windows SA-MP 0.3.7 R2
+[21:12:11]           Oct  7 2017 at 15:33:28
+[21:12:11] 
+[21:12:11]   Author:       OrMisicL (2013 - 2015)
+[21:12:11]   Continued by: ziggi (2016 - present)
+[21:12:11]   Contributors: kurta999, Neutralneu
+[21:12:11] -------------------------------------------------
+[21:12:11] 
+[21:12:11] Loading...
+[21:12:11]   Loaded.
+[21:12:11]  Loading plugin: RouteConnectorPlugin
+[21:12:11]   Loaded.
+[21:12:11]  Loading plugin: ColAndreas
+[21:12:11] *********************
+[21:12:11] ** Created By:     **
+[21:12:11] ** [uL]Chris42O    **
+[21:12:11] ** [uL]Slice       **
+[21:12:11] ** [uL]Pottus      **
+[21:12:11] *********************
+[21:12:11] No collision data found.
+[21:12:11] *********************
+[21:12:11]   ColAndreas Loaded
+[21:12:11]    v1.4.0
+[21:12:11] *********************
+[21:12:11]   Loaded.
+[21:12:11]  Loading plugin: nativechecker
+[21:12:11]   Loaded.
+[21:12:11]  Loaded 8 plugins.
+
+[21:12:11] 
+[21:12:11] Filterscripts
+[21:12:11] ---------------
+[21:12:11]   Loaded 0 filterscripts.
+
+[21:12:11] AMX (35301464) loaded
+[21:12:11] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[21:12:11] 
+----------------------------------
+[21:12:11]   Bare Script
+
+[21:12:11] ----------------------------------
+
+[21:12:11] Number of vehicle models: 0
+[21:13:31] [connection] incoming connection: 127.0.0.1:51942 id: 0
+[21:13:31] [join] Inuzuka has joined the server (0:127.0.0.1)
