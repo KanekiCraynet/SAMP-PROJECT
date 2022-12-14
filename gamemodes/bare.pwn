@@ -66,7 +66,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 			if(strlen(inputtext) >= 5 && strlen(inputtext) <= 20)
 			{
-				format(File, sizeof(File), "UserDini/%s.ini", GetName(playerid));
+				format(File, sizeof(File), "User/%s.ini", GetName(playerid));
 				dini_Create (File);
 				dini_Set(File,"Password", inputtext);
 				dini_FloatSet(File, "Darah", 100.0);
