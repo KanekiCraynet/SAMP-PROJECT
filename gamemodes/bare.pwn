@@ -37,7 +37,7 @@ public OnPlayerConnect(playerid)
 {
 	GameTextForPlayer(playerid,"~w~SA-MP: ~r~Bare Script",5000,5);
 	resertenum(playerid);	
-	format(File, sizeof(File), "UserDini/%s.ini", GetName(playerid));
+	format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
 	if(!dini_Exists(File))
 	{
 		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
@@ -66,7 +66,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 			if(strlen(inputtext) >= 5 && strlen(inputtext) <= 20)
 			{
-				format(File, sizeof(File), "User/%s.ini", GetName(playerid));
+				format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
 				dini_Create (File);
 				dini_Set(File,"Password", inputtext);
 				dini_FloatSet(File, "Darah", 100.0);
@@ -99,9 +99,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if(response)
 		{
 			new pass[255];
-			format(File, sizeof(File), "UserDini/%s.ini", GetName(playerid));
+			format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
 			format(pass, sizeof(pass), "%s", dini_Get(File, "Password"));
-			if(!strlen(inputtext)) return ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 			if(strcmp(inputtext, pass) == 0)
 			{
 				SetTimer("loaddatapemain", 1000, false);
@@ -120,7 +119,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if(response)
 		{
 
-			SetTimer("loaddatapemain", 1000, false);
+			SetTimer("loaddatapemain", 1000, true);
         	/*SpawnPlayer(playerid);
 
     		SetCameraBehindPlayer(playerid);
@@ -224,7 +223,7 @@ public loaddatapemain(playerid)
 forward savedatapemain(playerid);
 public savedatapemain(playerid)
 {
-	format(File, sizeof(File), "UserDini/%s.ini", GetName(playerid));
+	format(File, sizeof(File), "Users/%s.ini", GetName(playerid));
 	if(dini_Exists(File))
 	{
 		GetPlayerPos(playerid, pInfo[playerid][PosX], pInfo[playerid][PosY], pInfo[playerid][PosZ]);
