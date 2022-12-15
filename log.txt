@@ -733,3 +733,218 @@ encountered.  This could be caused by many things:
 [19:05:59] [Info] *********************
 [19:05:59] [Info] *ColAndreas Unloaded*
 [19:05:59] [Info] *********************
+[20:46:46] [Info] Loading plugin: streamer
+[20:46:46] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[20:46:46] [Info] Loading plugin: sscanf
+[20:46:46] [Info] 
+
+[20:46:46] [Info]  ===============================
+
+[20:46:46] [Info]       sscanf plugin loaded.     
+
+[20:46:46] [Info]          Version:  2.8.3        
+
+[20:46:46] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:46:46] [Info]  ===============================
+
+[20:46:46] [Info] Loading plugin: Whirlpool
+[20:46:46] [Info]  
+[20:46:46] [Info]  ==================
+[20:46:46] [Info]  
+[20:46:46] [Info]   Whirlpool loaded
+[20:46:46] [Info]  
+[20:46:46] [Info]  ==================
+[20:46:46] [Info]  
+[20:46:46] [Info] Loading plugin: QuaternionStuff
+[20:46:46] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[20:46:46] [Info] Loading plugin: RouteConnectorPlugin
+[20:46:47] [Info] Loading plugin: ColAndreas
+[20:46:47] [Info] *********************
+[20:46:47] [Info] ** Created By:     **
+[20:46:47] [Info] ** [uL]Chris42O    **
+[20:46:47] [Info] ** [uL]Slice       **
+[20:46:47] [Info] ** [uL]Pottus      **
+[20:46:47] [Info] *********************
+[20:46:47] [Info] No collision data found.
+[20:46:47] [Info] *********************
+[20:46:47] [Info]   ColAndreas Loaded
+[20:46:47] [Info]    v1.4.0
+[20:46:47] [Info] *********************
+[20:46:47] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[20:46:47] [Info] AMX (200604108) loaded
+[20:46:47] [Info] 
+----------------------------------
+[20:46:47] [Info]  Blank Gamemode by your name here
+[20:46:47] [Info] ----------------------------------
+
+[20:46:47] [Info] Legacy Network started on port 7777
+[21:00:48] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[21:00:48] [Info] 
+
+[21:00:48] [Info]  ===============================
+
+[21:00:48] [Info]      sscanf plugin unloaded.    
+
+[21:00:48] [Info]  ===============================
+
+[21:00:48] [Info]  
+[21:00:48] [Info]  ====================
+[21:00:48] [Info]  
+[21:00:48] [Info]   Whirlpool unloaded
+[21:00:48] [Info]  
+[21:00:48] [Info]  ====================
+[21:00:48] [Info]  
+[21:00:48] [Info] *********************
+[21:00:48] [Info] *ColAndreas Unloaded*
+[21:00:48] [Info] *********************
+[21:00:51] [Info] Loading plugin: streamer
+[21:00:51] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:00:51] [Info] Loading plugin: sscanf
+[21:00:51] [Info] 
+
+[21:00:51] [Info]  ===============================
+
+[21:00:51] [Info]       sscanf plugin loaded.     
+
+[21:00:51] [Info]          Version:  2.8.3        
+
+[21:00:51] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:00:51] [Info]  ===============================
+
+[21:00:51] [Info] Loading plugin: Whirlpool
+[21:00:51] [Info]  
+[21:00:51] [Info]  ==================
+[21:00:51] [Info]  
+[21:00:51] [Info]   Whirlpool loaded
+[21:00:51] [Info]  
+[21:00:51] [Info]  ==================
+[21:00:51] [Info]  
+[21:00:51] [Info] Loading plugin: QuaternionStuff
+[21:00:51] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[21:00:51] [Info] Loading plugin: RouteConnectorPlugin
+[21:00:51] [Info] Loading plugin: ColAndreas
+[21:00:51] [Info] *********************
+[21:00:51] [Info] ** Created By:     **
+[21:00:51] [Info] ** [uL]Chris42O    **
+[21:00:51] [Info] ** [uL]Slice       **
+[21:00:51] [Info] ** [uL]Pottus      **
+[21:00:51] [Info] *********************
+[21:00:51] [Info] No collision data found.
+[21:00:51] [Info] *********************
+[21:00:51] [Info]   ColAndreas Loaded
+[21:00:51] [Info]    v1.4.0
+[21:00:51] [Info] *********************
+[21:00:51] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[21:00:52] [Info] AMX (203378772) loaded
+[21:00:52] [Info] 
+----------------------------------
+[21:00:52] [Info]  Blank Gamemode by your name here
+[21:00:52] [Info] ----------------------------------
+
+[21:00:52] [Info] Legacy Network started on port 7777
+[21:01:58] [Info] [connection] incoming connection: 127.0.0.1:63669 id: 0
+[21:01:58] [Info] [join] Romy has joined the server (0:127.0.0.1)
+[21:13:58] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[21:13:58] [Info] 
+
+[21:13:58] [Info]  ===============================
+
+[21:13:58] [Info]      sscanf plugin unloaded.    
+
+[21:13:58] [Info]  ===============================
+
+[21:13:58] [Info]  
+[21:13:58] [Info]  ====================
+[21:13:58] [Info]  
+[21:13:58] [Info]   Whirlpool unloaded
+[21:13:58] [Info]  
+[21:13:58] [Info]  ====================
+[21:13:58] [Info]  
+[21:13:58] [Info] *********************
+[21:13:58] [Info] *ColAndreas Unloaded*
+[21:13:58] [Info] *********************
+[21:14:01] [Info] Loading plugin: streamer
+[21:14:01] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[21:14:01] [Info] Loading plugin: sscanf
+[21:14:01] [Info] 
+
+[21:14:01] [Info]  ===============================
+
+[21:14:01] [Info]       sscanf plugin loaded.     
+
+[21:14:01] [Info]          Version:  2.8.3        
+
+[21:14:01] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:14:01] [Info]  ===============================
+
+[21:14:01] [Info] Loading plugin: Whirlpool
+[21:14:01] [Info]  
+[21:14:01] [Info]  ==================
+[21:14:01] [Info]  
+[21:14:01] [Info]   Whirlpool loaded
+[21:14:01] [Info]  
+[21:14:01] [Info]  ==================
+[21:14:01] [Info]  
+[21:14:01] [Info] Loading plugin: QuaternionStuff
+[21:14:01] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[21:14:01] [Info] Loading plugin: RouteConnectorPlugin
+[21:14:01] [Info] Loading plugin: ColAndreas
+[21:14:01] [Info] *********************
+[21:14:01] [Info] ** Created By:     **
+[21:14:01] [Info] ** [uL]Chris42O    **
+[21:14:01] [Info] ** [uL]Slice       **
+[21:14:01] [Info] ** [uL]Pottus      **
+[21:14:01] [Info] *********************
+[21:14:01] [Info] No collision data found.
+[21:14:01] [Info] *********************
+[21:14:01] [Info]   ColAndreas Loaded
+[21:14:01] [Info]    v1.4.0
+[21:14:01] [Info] *********************
+[21:14:01] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[21:14:01] [Info] AMX (203378820) loaded
+[21:14:01] [Info] 
+----------------------------------
+[21:14:01] [Info]  Blank Gamemode by your name here
+[21:14:01] [Info] ----------------------------------
+
+[21:14:01] [Info] Legacy Network started on port 7777
+[00:05:13] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito unloaded ***
+
+[00:05:13] [Info] 
+
+[00:05:13] [Info]  ===============================
+
+[00:05:13] [Info]      sscanf plugin unloaded.    
+
+[00:05:13] [Info]  ===============================
+
+[00:05:13] [Info]  
+[00:05:13] [Info]  ====================
+[00:05:13] [Info]  
+[00:05:13] [Info]   Whirlpool unloaded
+[00:05:13] [Info]  
+[00:05:13] [Info]  ====================
+[00:05:13] [Info]  
+[00:05:13] [Info] *********************
+[00:05:13] [Info] *ColAndreas Unloaded*
+[00:05:13] [Info] *********************

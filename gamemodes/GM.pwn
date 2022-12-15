@@ -277,8 +277,6 @@ public OnPlayerConnect(playerid)
 	{
 		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
 	}else{
-		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "DATE", "Isi Tgl Kelahiran Kalian Misal: 15/07/2004", "Set", "Exit");
-	}else{
 		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 	}
 	return 1;

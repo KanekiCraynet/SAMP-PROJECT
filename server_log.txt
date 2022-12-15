@@ -4288,3 +4288,92 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [19:24:07] [part] Romy has left the server (0:1)
 [19:26:00] [connection] incoming connection: 127.0.0.1:61753 id: 0
 [19:26:00] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:46:24] filterscripts = ""  (string)
+[20:46:24] 
+[20:46:24] Server Plugins
+[20:46:24] --------------
+[20:46:24]  Loading plugin: streamer
+[20:46:25] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: sscanf
+[20:46:25] 
+
+[20:46:25]  ===============================
+
+[20:46:25]       sscanf plugin loaded.     
+
+[20:46:25]          Version:  2.8.3        
+
+[20:46:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:46:25]  ===============================
+
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: Whirlpool
+[20:46:25]  
+[20:46:25]  ==================
+[20:46:25]  
+[20:46:25]   Whirlpool loaded
+[20:46:25]  
+[20:46:25]  ==================
+[20:46:25]  
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: QuaternionStuff
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: FCNPC
+[20:46:25] 
+[20:46:25] -------------------------------------------------
+[20:46:25]      FCNPC - Fully Controllable NPC v1.7.6
+[20:46:25]          Windows SA-MP 0.3.7 R2
+[20:46:25]           Oct  7 2017 at 15:33:28
+[20:46:25] 
+[20:46:25]   Author:       OrMisicL (2013 - 2015)
+[20:46:25]   Continued by: ziggi (2016 - present)
+[20:46:25]   Contributors: kurta999, Neutralneu
+[20:46:25] -------------------------------------------------
+[20:46:25] 
+[20:46:25] Loading...
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: RouteConnectorPlugin
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: ColAndreas
+[20:46:25] *********************
+[20:46:25] ** Created By:     **
+[20:46:25] ** [uL]Chris42O    **
+[20:46:25] ** [uL]Slice       **
+[20:46:25] ** [uL]Pottus      **
+[20:46:25] *********************
+[20:46:25] No collision data found.
+[20:46:25] *********************
+[20:46:25]   ColAndreas Loaded
+[20:46:25]    v1.4.0
+[20:46:25] *********************
+[20:46:25]   Loaded.
+[20:46:25]  Loading plugin: nativechecker
+[20:46:25]   Loaded.
+[20:46:25]  Loaded 8 plugins.
+
+[20:46:25] 
+[20:46:25] Filterscripts
+[20:46:25] ---------------
+[20:46:25]   Loaded 0 filterscripts.
+
+[20:46:25] AMX (8497240) loaded
+[20:46:25] 
+----------------------------------
+[20:46:25]  Blank Gamemode by your name here
+[20:46:25] ----------------------------------
+
+[20:46:25] Number of vehicle models: 0
