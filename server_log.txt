@@ -3845,3 +3845,446 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [01:45:26] Number of vehicle models: 0
 [01:45:30] [connection] incoming connection: 127.0.0.1:58074 id: 0
 [01:45:30] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:26] filterscripts = ""  (string)
+[12:04:26] 
+[12:04:26] Server Plugins
+[12:04:26] --------------
+[12:04:26]  Loading plugin: streamer
+[12:04:26] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[12:04:26]   Loaded.
+[12:04:26]  Loading plugin: sscanf
+[12:04:26] 
+
+[12:04:26]  ===============================
+
+[12:04:26]       sscanf plugin loaded.     
+
+[12:04:26]          Version:  2.8.3        
+
+[12:04:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[12:04:26]  ===============================
+
+[12:04:26]   Loaded.
+[12:04:26]  Loading plugin: Whirlpool
+[12:04:26]  
+[12:04:26]  ==================
+[12:04:26]  
+[12:04:26]   Whirlpool loaded
+[12:04:26]  
+[12:04:26]  ==================
+[12:04:26]  
+[12:04:26]   Loaded.
+[12:04:26]  Loading plugin: QuaternionStuff
+[12:04:26]   Loaded.
+[12:04:26]  Loading plugin: FCNPC
+[12:04:27] 
+[12:04:27] -------------------------------------------------
+[12:04:27]      FCNPC - Fully Controllable NPC v1.7.6
+[12:04:27]          Windows SA-MP 0.3.7 R2
+[12:04:27]           Oct  7 2017 at 15:33:28
+[12:04:27] 
+[12:04:27]   Author:       OrMisicL (2013 - 2015)
+[12:04:27]   Continued by: ziggi (2016 - present)
+[12:04:27]   Contributors: kurta999, Neutralneu
+[12:04:27] -------------------------------------------------
+[12:04:27] 
+[12:04:27] Loading...
+[12:04:27]   Loaded.
+[12:04:27]  Loading plugin: RouteConnectorPlugin
+[12:04:27]   Loaded.
+[12:04:27]  Loading plugin: ColAndreas
+[12:04:27] *********************
+[12:04:27] ** Created By:     **
+[12:04:27] ** [uL]Chris42O    **
+[12:04:27] ** [uL]Slice       **
+[12:04:27] ** [uL]Pottus      **
+[12:04:27] *********************
+[12:04:27] No collision data found.
+[12:04:27] *********************
+[12:04:27]   ColAndreas Loaded
+[12:04:27]    v1.4.0
+[12:04:27] *********************
+[12:04:27]   Loaded.
+[12:04:27]  Loading plugin: nativechecker
+[12:04:27]   Loaded.
+[12:04:27]  Loaded 8 plugins.
+
+[12:04:27] 
+[12:04:27] Filterscripts
+[12:04:27] ---------------
+[12:04:27]   Loaded 0 filterscripts.
+
+[12:04:27] AMX (34646104) loaded
+[12:04:27] 
+----------------------------------
+[12:04:27]  GM Belajar
+[12:04:27] ----------------------------------
+
+[12:04:27] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:45] filterscripts = ""  (string)
+[12:04:45] 
+[12:04:45] Server Plugins
+[12:04:45] --------------
+[12:04:45]  Loading plugin: streamer
+[12:04:45] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: sscanf
+[12:04:45] 
+
+[12:04:45]  ===============================
+
+[12:04:45]       sscanf plugin loaded.     
+
+[12:04:45]          Version:  2.8.3        
+
+[12:04:45]   (c) 2018 Alex "Y_Less" Cole  
+
+[12:04:45]  ===============================
+
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: Whirlpool
+[12:04:45]  
+[12:04:45]  ==================
+[12:04:45]  
+[12:04:45]   Whirlpool loaded
+[12:04:45]  
+[12:04:45]  ==================
+[12:04:45]  
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: QuaternionStuff
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: FCNPC
+[12:04:45] 
+[12:04:45] -------------------------------------------------
+[12:04:45]      FCNPC - Fully Controllable NPC v1.7.6
+[12:04:45]          Windows SA-MP 0.3.7 R2
+[12:04:45]           Oct  7 2017 at 15:33:28
+[12:04:45] 
+[12:04:45]   Author:       OrMisicL (2013 - 2015)
+[12:04:45]   Continued by: ziggi (2016 - present)
+[12:04:45]   Contributors: kurta999, Neutralneu
+[12:04:45] -------------------------------------------------
+[12:04:45] 
+[12:04:45] Loading...
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: RouteConnectorPlugin
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: ColAndreas
+[12:04:45] *********************
+[12:04:45] ** Created By:     **
+[12:04:45] ** [uL]Chris42O    **
+[12:04:45] ** [uL]Slice       **
+[12:04:45] ** [uL]Pottus      **
+[12:04:45] *********************
+[12:04:45] No collision data found.
+[12:04:45] *********************
+[12:04:45]   ColAndreas Loaded
+[12:04:45]    v1.4.0
+[12:04:45] *********************
+[12:04:45]   Loaded.
+[12:04:45]  Loading plugin: nativechecker
+[12:04:45]   Loaded.
+[12:04:45]  Loaded 8 plugins.
+
+[12:04:45] Unable to start server on port: 7777. Port in use?
+[12:04:45] 
+[12:04:45] Filterscripts
+[12:04:45] ---------------
+[12:04:45]   Loaded 0 filterscripts.
+
+[12:04:45] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:04:47] filterscripts = ""  (string)
+[12:04:47] 
+[12:04:47] Server Plugins
+[12:04:47] --------------
+[12:04:47]  Loading plugin: streamer
+[12:04:47] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: sscanf
+[12:04:47] 
+
+[12:04:47]  ===============================
+
+[12:04:47]       sscanf plugin loaded.     
+
+[12:04:47]          Version:  2.8.3        
+
+[12:04:47]   (c) 2018 Alex "Y_Less" Cole  
+
+[12:04:47]  ===============================
+
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: Whirlpool
+[12:04:47]  
+[12:04:47]  ==================
+[12:04:47]  
+[12:04:47]   Whirlpool loaded
+[12:04:47]  
+[12:04:47]  ==================
+[12:04:47]  
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: QuaternionStuff
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: FCNPC
+[12:04:47] 
+[12:04:47] -------------------------------------------------
+[12:04:47]      FCNPC - Fully Controllable NPC v1.7.6
+[12:04:47]          Windows SA-MP 0.3.7 R2
+[12:04:47]           Oct  7 2017 at 15:33:28
+[12:04:47] 
+[12:04:47]   Author:       OrMisicL (2013 - 2015)
+[12:04:47]   Continued by: ziggi (2016 - present)
+[12:04:47]   Contributors: kurta999, Neutralneu
+[12:04:47] -------------------------------------------------
+[12:04:47] 
+[12:04:47] Loading...
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: RouteConnectorPlugin
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: ColAndreas
+[12:04:47] *********************
+[12:04:47] ** Created By:     **
+[12:04:47] ** [uL]Chris42O    **
+[12:04:47] ** [uL]Slice       **
+[12:04:47] ** [uL]Pottus      **
+[12:04:47] *********************
+[12:04:47] No collision data found.
+[12:04:47] *********************
+[12:04:47]   ColAndreas Loaded
+[12:04:47]    v1.4.0
+[12:04:47] *********************
+[12:04:47]   Loaded.
+[12:04:47]  Loading plugin: nativechecker
+[12:04:47]   Loaded.
+[12:04:47]  Loaded 8 plugins.
+
+[12:04:47] Unable to start server on port: 7777. Port in use?
+[12:04:47] 
+[12:04:47] Filterscripts
+[12:04:47] ---------------
+[12:04:47]   Loaded 0 filterscripts.
+
+[12:04:47] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:06:36] filterscripts = ""  (string)
+[19:06:36] 
+[19:06:36] Server Plugins
+[19:06:36] --------------
+[19:06:36]  Loading plugin: streamer
+[19:06:36] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:06:36]   Loaded.
+[19:06:36]  Loading plugin: sscanf
+[19:06:36] 
+
+[19:06:36]  ===============================
+
+[19:06:36]       sscanf plugin loaded.     
+
+[19:06:36]          Version:  2.8.3        
+
+[19:06:36]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:06:36]  ===============================
+
+[19:06:36]   Loaded.
+[19:06:36]  Loading plugin: Whirlpool
+[19:06:36]  
+[19:06:36]  ==================
+[19:06:36]  
+[19:06:36]   Whirlpool loaded
+[19:06:36]  
+[19:06:36]  ==================
+[19:06:36]  
+[19:06:36]   Loaded.
+[19:06:36]  Loading plugin: QuaternionStuff
+[19:06:36]   Loaded.
+[19:06:36]  Loading plugin: FCNPC
+[19:06:37] 
+[19:06:37] -------------------------------------------------
+[19:06:37]      FCNPC - Fully Controllable NPC v1.7.6
+[19:06:37]          Windows SA-MP 0.3.7 R2
+[19:06:37]           Oct  7 2017 at 15:33:28
+[19:06:37] 
+[19:06:37]   Author:       OrMisicL (2013 - 2015)
+[19:06:37]   Continued by: ziggi (2016 - present)
+[19:06:37]   Contributors: kurta999, Neutralneu
+[19:06:37] -------------------------------------------------
+[19:06:37] 
+[19:06:37] Loading...
+[19:06:37]   Loaded.
+[19:06:37]  Loading plugin: RouteConnectorPlugin
+[19:06:37]   Loaded.
+[19:06:37]  Loading plugin: ColAndreas
+[19:06:37] *********************
+[19:06:37] ** Created By:     **
+[19:06:37] ** [uL]Chris42O    **
+[19:06:37] ** [uL]Slice       **
+[19:06:37] ** [uL]Pottus      **
+[19:06:37] *********************
+[19:06:37] No collision data found.
+[19:06:37] *********************
+[19:06:37]   ColAndreas Loaded
+[19:06:37]    v1.4.0
+[19:06:37] *********************
+[19:06:37]   Loaded.
+[19:06:37]  Loading plugin: nativechecker
+[19:06:37]   Loaded.
+[19:06:37]  Loaded 8 plugins.
+
+[19:06:37] 
+[19:06:37] Filterscripts
+[19:06:37] ---------------
+[19:06:37]   Loaded 0 filterscripts.
+
+[19:06:37] AMX (6006872) loaded
+[19:06:37] 
+---------------------------------------
+[19:06:37] Running Grand Larceny - by the SA-MP team
+
+[19:06:37] ---------------------------------------
+
+[19:06:37] Number of vehicle models: 0
+[19:07:59] [connection] incoming connection: 127.0.0.1:61393 id: 0
+[19:07:59] [join] Romy has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:26] filterscripts = ""  (string)
+[19:23:26] 
+[19:23:26] Server Plugins
+[19:23:26] --------------
+[19:23:26]  Loading plugin: streamer
+[19:23:26] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: sscanf
+[19:23:26] 
+
+[19:23:26]  ===============================
+
+[19:23:26]       sscanf plugin loaded.     
+
+[19:23:26]          Version:  2.8.3        
+
+[19:23:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:23:26]  ===============================
+
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: Whirlpool
+[19:23:26]  
+[19:23:26]  ==================
+[19:23:26]  
+[19:23:26]   Whirlpool loaded
+[19:23:26]  
+[19:23:26]  ==================
+[19:23:26]  
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: QuaternionStuff
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: FCNPC
+[19:23:26] 
+[19:23:26] -------------------------------------------------
+[19:23:26]      FCNPC - Fully Controllable NPC v1.7.6
+[19:23:26]          Windows SA-MP 0.3.7 R2
+[19:23:26]           Oct  7 2017 at 15:33:28
+[19:23:26] 
+[19:23:26]   Author:       OrMisicL (2013 - 2015)
+[19:23:26]   Continued by: ziggi (2016 - present)
+[19:23:26]   Contributors: kurta999, Neutralneu
+[19:23:26] -------------------------------------------------
+[19:23:26] 
+[19:23:26] Loading...
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: RouteConnectorPlugin
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: ColAndreas
+[19:23:26] *********************
+[19:23:26] ** Created By:     **
+[19:23:26] ** [uL]Chris42O    **
+[19:23:26] ** [uL]Slice       **
+[19:23:26] ** [uL]Pottus      **
+[19:23:26] *********************
+[19:23:26] No collision data found.
+[19:23:26] *********************
+[19:23:26]   ColAndreas Loaded
+[19:23:26]    v1.4.0
+[19:23:26] *********************
+[19:23:26]   Loaded.
+[19:23:26]  Loading plugin: nativechecker
+[19:23:26]   Loaded.
+[19:23:26]  Loaded 8 plugins.
+
+[19:23:26] 
+[19:23:26] Filterscripts
+[19:23:26] ---------------
+[19:23:26]   Loaded 0 filterscripts.
+
+[19:23:26] AMX (35301464) loaded
+[19:23:26] 
+----------------------------------
+[19:23:26]  GM Belajar
+[19:23:26] ----------------------------------
+
+[19:23:26] Number of vehicle models: 0
+[19:23:43] [connection] incoming connection: 127.0.0.1:62356 id: 0
+[19:23:43] [join] Romy has joined the server (0:127.0.0.1)
+[19:24:07] [part] Romy has left the server (0:1)
+[19:26:00] [connection] incoming connection: 127.0.0.1:61753 id: 0
+[19:26:00] [join] Romy has joined the server (0:127.0.0.1)

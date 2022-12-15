@@ -239,6 +239,7 @@ enum PlayerInfo
 	Float: Angle,
 	Int,
 	VW,
+	Date,
 	Skin
 }
 new pInfo[MAX_PLAYERS][PlayerInfo];
@@ -247,14 +248,14 @@ new File [128];
 main()
 {
 	print("\n----------------------------------");
-	print(" GM Belajar");
+	print(" SAMP PROJECT");
 	print("----------------------------------\n");
 }
 
 public OnGameModeInit()
 {
 	// Don't use these lines if it's a filterscript
-	SetGameModeText("Tutor SAMP");
+	SetGameModeText("SAMP PROJECT");
 	return 1;
 }
 
@@ -274,11 +275,11 @@ public OnPlayerConnect(playerid)
 	format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 	if(!dini_Exists(File))
 	{
-		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "{6EF83C}Register", "Isi", "Masuk", "Keluar");
+		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
 	}else{
-		new logindialog[256];
-        format(logindialog, sizeof(logindialog),"{FFFFFF}Selamat Datang User Account {B8FF02}%s\n{00BC2E}User Account ini telah terdaftar.{FFFFFF}\nSilahkan masukkan {B8FF02}Password{FFFFFF} untuk Login", PlayerInfo);
-		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "{6EF83C}Login Panel", logindialog, "Login", "Keluar");
+		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "DATE", "Isi Tgl Kelahiran Kalian Misal: 15/07/2004", "Set", "Exit");
+	}else{
+		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 	}
 	return 1;
 }
@@ -305,6 +306,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 				dini_Create (File);
 				dini_Set(File,"Password", inputtext);
+				dini_Set(File,"Date", inputtext);
 				dini_FloatSet(File, "Darah", 100.0);
 				dini_FloatSet(File, "Armour", 0.0);
 				dini_FloatSet(File, "POSX", 1682.6084);
@@ -460,6 +462,7 @@ public loaddatapemain(playerid)
 	SetCameraBehindPlayer(playerid);
 
 	pInfo[playerid][Health]		=	dini_Float(File, "Darah");
+	pInfo[playerid][Date]		=	dini_Float(File, "Date");
 	pInfo[playerid][Armour]		=	dini_Float(File, "Armour");
 	pInfo[playerid][PosX]		=	dini_Float(File, "POSX");
 	pInfo[playerid][PosY]		=	dini_Float(File, "POSY");
@@ -496,6 +499,7 @@ public savedatapemain(playerid)
 		pInfo[playerid][Skin]	= GetPlayerSkin(playerid);
 
 		dini_FloatSet(File, "Darah", pInfo[playerid][Health]);
+		dini_FloatSet(File, "Date", pInfo[playerid][Date]);
 		dini_FloatSet(File, "Armour", pInfo[playerid][Armour]);
 		dini_FloatSet(File, "POSX", pInfo[playerid][PosX]);
 		dini_FloatSet(File, "POSY", pInfo[playerid][PosY]);
