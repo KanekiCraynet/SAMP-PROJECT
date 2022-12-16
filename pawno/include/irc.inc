@@ -1,40 +1,35 @@
 /*
-    SA-MP IRC Plugin v1.4.1
-    Copyright © 2011 Incognito
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
-#if defined _irc_included
-	#endinput
-#endif
-#define _irc_included
+ * Copyright (C) 2016 Incognito
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 #include <a_samp>
 
-// Enumerator
+// Enum
 
 enum
 {
 	E_IRC_CONNECT_ATTEMPTS,
 	E_IRC_CONNECT_DELAY,
-	E_IRC_CONNECT_TIMEOUT
+	E_IRC_CONNECT_TIMEOUT,
+	E_IRC_RECEIVE_TIMEOUT,
+	E_IRC_RESPAWN
 }
 
 // Natives
 
-native IRC_Connect(const server[], port, const nickname[], const realname[], const username[], bool:ssl = false, localip[] = "");
+native IRC_Connect(const server[], port, const nickname[], const realname[], const username[], bool:ssl = false, const localip[] = "", const serverpassword[] = "");
 native IRC_Quit(botid, const message[] = "");
 native IRC_JoinChannel(botid, const channel[], const key[] = "");
 native IRC_PartChannel(botid, const channel[], const message[] = "");
@@ -61,29 +56,31 @@ native IRC_SetIntData(botid, data, value);
 
 // Callbacks
 
-forward IRC_OnConnect(botid, ip[], port);
-forward IRC_OnDisconnect(botid, ip[], port, reason[]);
-forward IRC_OnConnectAttempt(botid, ip[], port);
-forward IRC_OnConnectAttemptFail(botid, ip[], port, reason[]);
-forward IRC_OnJoinChannel(botid, channel[]);
-forward IRC_OnLeaveChannel(botid, channel[], message[]);
-forward IRC_OnKickedFromChannel(botid, channel[], oppeduser[], oppedhost[], message[]);
-forward IRC_OnUserDisconnect(botid, user[], host[], message[]);
-forward IRC_OnUserJoinChannel(botid, channel[], user[], host[]);
-forward IRC_OnUserLeaveChannel(botid, channel[], user[], host[], message[]);
-forward IRC_OnUserKickedFromChannel(botid, channel[], kickeduser[], oppeduser[], oppedhost[], message[]);
-forward IRC_OnUserNickChange(botid, oldnick[], newnick[], host[]);
-forward IRC_OnUserSetChannelMode(botid, channel[], user[], host[], mode[]);
-forward IRC_OnUserSetChannelTopic(botid, channel[], user[], host[], topic[]);
-forward IRC_OnUserSay(botid, recipient[], user[], host[], message[]);
-forward IRC_OnUserNotice(botid, recipient[], user[], host[], message[]);
-forward IRC_OnUserRequestCTCP(botid, user[], host[], message[]);
-forward IRC_OnUserReplyCTCP(botid, user[], host[], message[]);
-forward IRC_OnReceiveRaw(botid, message[]);
+forward IRC_OnConnect(botid, const ip[], port);
+forward IRC_OnDisconnect(botid, const ip[], port, const reason[]);
+forward IRC_OnConnectAttempt(botid, const ip[], port);
+forward IRC_OnConnectAttemptFail(botid, const ip[], port, const reason[]);
+forward IRC_OnJoinChannel(botid, const channel[]);
+forward IRC_OnLeaveChannel(botid, const channel[], const message[]);
+forward IRC_OnInvitedToChannel(botid, const channel[], const invitinguser[], const invitinghost[]);
+forward IRC_OnKickedFromChannel(botid, const channel[], const oppeduser[], const oppedhost[], const message[]);
+forward IRC_OnUserDisconnect(botid, const user[], const host[], const message[]);
+forward IRC_OnUserJoinChannel(botid, const channel[], const user[], const host[]);
+forward IRC_OnUserLeaveChannel(botid, const channel[], const user[], const host[], const message[]);
+forward IRC_OnUserKickedFromChannel(botid, const channel[], const kickeduser[], const oppeduser[], const oppedhost[], const message[]);
+forward IRC_OnUserNickChange(botid, const oldnick[], const newnick[], const host[]);
+forward IRC_OnUserSetChannelMode(botid, const channel[], const user[], const host[], const mode[]);
+forward IRC_OnUserSetChannelTopic(botid, const channel[], const user[], const host[], const topic[]);
+forward IRC_OnUserSay(botid, const recipient[], const user[], const host[], const message[]);
+forward IRC_OnUserNotice(botid, const recipient[], const user[], const host[], const message[]);
+forward IRC_OnUserRequestCTCP(botid, const user[], const host[], const message[]);
+forward IRC_OnUserReplyCTCP(botid, const user[], const host[], const message[]);
+forward IRC_OnReceiveNumeric(botid, numeric, const message[]);
+forward IRC_OnReceiveRaw(botid, const message[]);
 
-// Stock Functions
+// Helper Functions
 
-stock IRC_IsVoice(botid, channel[], user[])
+stock IRC_IsVoice(botid, const channel[], const user[])
 {
 	new mode[2];
 	IRC_GetUserChannelMode(botid, channel, user, mode);
@@ -97,7 +94,7 @@ stock IRC_IsVoice(botid, channel[], user[])
 	return 0;
 }
 
-stock IRC_IsHalfop(botid, channel[], user[])
+stock IRC_IsHalfop(botid, const channel[], const user[])
 {
 	new mode[2];
 	IRC_GetUserChannelMode(botid, channel, user, mode);
@@ -112,7 +109,7 @@ stock IRC_IsHalfop(botid, channel[], user[])
 	return 0;
 }
 
-stock IRC_IsOp(botid, channel[], user[])
+stock IRC_IsOp(botid, const channel[], const user[])
 {
 	new mode[2];
 	IRC_GetUserChannelMode(botid, channel, user, mode);
@@ -127,7 +124,7 @@ stock IRC_IsOp(botid, channel[], user[])
 	return 0;
 }
 
-stock IRC_IsAdmin(botid, channel[], user[])
+stock IRC_IsAdmin(botid, const channel[], const user[])
 {
 	new mode[2];
 	IRC_GetUserChannelMode(botid, channel, user, mode);
@@ -142,7 +139,7 @@ stock IRC_IsAdmin(botid, channel[], user[])
 	return 0;
 }
 
-stock IRC_IsOwner(botid, channel[], user[])
+stock IRC_IsOwner(botid, const channel[], const user[])
 {
 	new mode[2];
 	IRC_GetUserChannelMode(botid, channel, user, mode);
@@ -157,8 +154,7 @@ stock IRC_IsOwner(botid, channel[], user[])
 	return 0;
 }
 
-// Command system for users in IRC channels
-// Slightly modified zcmd by Zeex
+// Channel Command System
 
 #define CHANNEL_PREFIX '#'
 #define COMMAND_PREFIX '!'
@@ -215,7 +211,7 @@ public OnGameModeInit()
 
 forward IRC_OnGameModeInit();
 
-public IRC_OnUserSay(botid, recipient[], user[], host[], message[])
+public IRC_OnUserSay(botid, const recipient[], const user[], const host[], const message[])
 {
 	if (recipient[0] == CHANNEL_PREFIX && message[0] == COMMAND_PREFIX)
 	{
@@ -223,6 +219,10 @@ public IRC_OnUserSay(botid, recipient[], user[], host[], message[])
 		while (message[++pos] > ' ')
 		{
 			function[pos - 1] = tolower(message[pos]);
+			if (pos > (sizeof(function) - 1))
+			{
+				break;
+			}
 		} 
 		format(function, sizeof(function), "irccmd_%s", function);
 		while (message[pos] == ' ')
@@ -252,4 +252,4 @@ public IRC_OnUserSay(botid, recipient[], user[], host[], message[])
 #endif
 #define IRC_OnUserSay IRC_OUS
 
-forward IRC_OUS(botid, recipient[], user[], host[], message[]);
+forward IRC_OUS(botid, const recipient[], const user[], const host[], const message[]);

@@ -27,6 +27,26 @@
 #else
 #define DINI_MAX_STRING 255
 #endif
+/*
+native dini_Exists(filename[]);
+native dini_Remove(filename[]);
+native dini_Create(filename[]);
+native
+native dini_Set(filename[],key[],value[]);
+native dini_Isset(filename[],key[]);
+native dini_Unset(filename[],key[]);
+native
+native dini_IntSet(filename[],key[],value);
+native dini_FloatSet(filename[],key[],Float:value);
+native dini_BoolSet(filename[],key[],value);
+native
+native dini_Int(filename[],key[]);
+native Float:dini_Float(filename[],key[]);
+native dini_Bool(filename[],key[]);
+native
+native dini_Get(filename[],key[]);
+*/
+
 
 stock dini_Exists(filename[]) {
 	return fexist(filename);

@@ -1,5 +1,5 @@
 /*  SA:MP Functions
- *  
+ *
  *  ZONES Functions By ~Cueball~
  *  ZONES Functions Aided By Betamaster (locations), Mabako (locations), Simon (finetuning)
  *
@@ -405,6 +405,28 @@ static const gSAZones[][SAZONE_MAIN] = {  // Majority of names and area coordina
 
 //---------------------------------------------------------------------------------------------------
 
+/* GetPosZone(Float:x, Float:y, zone[], len)
+ * @Info:   Used to retrieve a 2D zone from a given set of XY coordinates.
+ *
+ * @params: X, Y       - The XY coords you want the zone for.
+ * @params: zone[]        - The string with which the zone name will be formatted into.
+ * @params: len		  - The maximum length you wish to format the zone name into. RECOMMENDED 28!
+ */
+
+stock Get2DPosZone(Float:x, Float:y, zone[], len)
+{
+ 	for(new i = 0; i != sizeof(gSAZones); i++ )
+ 	{
+		if(x >= gSAZones[i][SAZONE_AREA][0] && x <= gSAZones[i][SAZONE_AREA][3] && y >= gSAZones[i][SAZONE_AREA][1] && y <= gSAZones[i][SAZONE_AREA][4])
+		{
+		    return format(zone, len, gSAZones[i][SAZONE_NAME], 0);
+		}
+	}
+	return 0;
+}
+
+//---------------------------------------------------------------------------------------------------
+
 /* GetPlayer2DZone(playerid, zone[], len)
  * @Info:   Used to retrieve the players zone/area name. DOES NOT COMPARE HEIGHTS!
  *
@@ -444,30 +466,6 @@ stock GetPlayer3DZone(playerid, zone[], len) //Credits to Cueball, Betamaster, M
  	for(new i = 0; i != sizeof(gSAZones); i++ )
  	{
 		if(x >= gSAZones[i][SAZONE_AREA][0] && x <= gSAZones[i][SAZONE_AREA][3] && y >= gSAZones[i][SAZONE_AREA][1] && y <= gSAZones[i][SAZONE_AREA][4] && z >= gSAZones[i][SAZONE_AREA][2] && z <= gSAZones[i][SAZONE_AREA][5])
-		{
-		    return format(zone, len, gSAZones[i][SAZONE_NAME], 0);
-		}
-	}
-	return 0;
-}
-
-stock Get3DZone(Float:x, Float:y, Float:z, zone[], len) //Credits to Cueball, Betamaster, Mabako, and Simon (for finetuning).
-{
- 	for(new i = 0; i != sizeof(gSAZones); i++ )
- 	{
-		if(x >= gSAZones[i][SAZONE_AREA][0] && x <= gSAZones[i][SAZONE_AREA][3] && y >= gSAZones[i][SAZONE_AREA][1] && y <= gSAZones[i][SAZONE_AREA][4] && z >= gSAZones[i][SAZONE_AREA][2] && z <= gSAZones[i][SAZONE_AREA][5])
-		{
-		    return format(zone, len, gSAZones[i][SAZONE_NAME], 0);
-		}
-	}
-	return 0;
-}
-
-stock Get2DPosZone(Float:x, Float:y, zone[], len)
-{
- 	for(new i = 0; i != sizeof(gSAZones); i++ )
- 	{
-		if(x >= gSAZones[i][SAZONE_AREA][0] && x <= gSAZones[i][SAZONE_AREA][3] && y >= gSAZones[i][SAZONE_AREA][1] && y <= gSAZones[i][SAZONE_AREA][4])
 		{
 		    return format(zone, len, gSAZones[i][SAZONE_NAME], 0);
 		}

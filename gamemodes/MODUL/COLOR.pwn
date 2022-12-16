@@ -61,6 +61,26 @@
 #define MATHS       "{3571FC}"
 #define REACTIONS   "{FD4141}"
 
+#define                     RED                                     0xFF0000FF
+#define                     WHITE                                   0xFFFFFFFF
+#define                     BLUE	                            	0x99CCFFFF
+#define                     LBLUE                                   0x99D6FFFF
+#define                     GREEN   	                            0x008000FF
+#define                     BROWN                                   0x9E3E3EFF
+
+#define                     RED_U                                   "{FF0000}"
+#define                     WHITE_U                                 "{FFFFFF}"
+#define                     BLUE_U                                  "{66A3FF}"
+#define                     LBLUE_U                                 "{99D6FF}"
+#define                     GREEN_U                                 "{39AC39}"
+#define                     BROWN_U                                 "{9E3E3E}"
+#define			    		ORANGE_U		 		    			"{ffc34d}"
+
+#define                     X11_CORNSILK_2                          0xEEE8CDFF
+#define                     X11_PEACH_PUFF_2                        0xEECBADFF
+#define                     X11_NAVAJO_WHITE_1                      0xFFDEADFF
+#define                     X11_NAVAJO_WHITE_2                      0xEECFA1FF
+
 #define dot "{F2F853}> {F0F0F0}"
 
 //=== Color ===

@@ -948,3 +948,56 @@ encountered.  This could be caused by many things:
 [00:05:13] [Info] *********************
 [00:05:13] [Info] *ColAndreas Unloaded*
 [00:05:13] [Info] *********************
+[20:53:52] [Info] Loading plugin: streamer
+[20:53:52] [Info] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[20:53:52] [Info] Loading plugin: sscanf
+[20:53:52] [Info] 
+
+[20:53:52] [Info]  ===============================
+
+[20:53:52] [Info]       sscanf plugin loaded.     
+
+[20:53:52] [Info]          Version:  2.8.3        
+
+[20:53:52] [Info]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:53:52] [Info]  ===============================
+
+[20:53:53] [Info] Loading plugin: Whirlpool
+[20:53:53] [Info]  
+[20:53:53] [Info]  ==================
+[20:53:53] [Info]  
+[20:53:53] [Info]   Whirlpool loaded
+[20:53:53] [Info]  
+[20:53:53] [Info]  ==================
+[20:53:53] [Info]  
+[20:53:53] [Info] Loading plugin: QuaternionStuff
+[20:53:53] [Error] Skipping legacy plugin 'FCNPC'; It requires memory hacking to run and is therefore broken on open.mp. There should be a replacement component supported by open.mp
+[20:53:53] [Info] Loading plugin: RouteConnectorPlugin
+[20:53:53] [Info] Loading plugin: ColAndreas
+[20:53:53] [Info] *********************
+[20:53:53] [Info] ** Created By:     **
+[20:53:53] [Info] ** [uL]Chris42O    **
+[20:53:53] [Info] ** [uL]Slice       **
+[20:53:53] [Info] ** [uL]Pottus      **
+[20:53:53] [Info] *********************
+[20:53:53] [Info] No collision data found.
+[20:53:53] [Info] *********************
+[20:53:53] [Info]   ColAndreas Loaded
+[20:53:53] [Info]    v1.4.0
+[20:53:53] [Info] *********************
+[20:53:53] [Error] Skipping legacy plugin 'nativechecker'; It is not needed anymore since open.mp has built in native checking mechanism when a script is being loaded
+[20:53:53] [Info] AMX (203771956) loaded
+[20:53:53] [Info] 
+----------------------------------
+[20:53:53] [Info]  SAMP PROJECT
+[20:53:53] [Info] ----------------------------------
+
+[20:53:54] [Info] Legacy Network started on port 7777
+[20:55:21] [Info] [connection] incoming connection: 127.0.0.1:63027 id: 0
+[20:55:21] [Info] [join] Inuzuka has joined the server (0:127.0.0.1)
+[20:55:33] [Info] [PAWN-LOG] ERROR: Exception in floatstr: "invalid stof argument"
+[21:11:13] [Info] [part] Inuzuka has left the server (0:1)

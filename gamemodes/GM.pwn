@@ -6,6 +6,8 @@
 #include <zcmd>
 #include "MODUL\COLOR.pwn"
 #include <a_http>
+#include <YSI\y_ini>
+#include <easyDialog>
  
 #define APIKEY "3E1D7992FDC36C8921ADEF28D1E7A665"
 //#define ALWAYS_RESPONSE
