@@ -4,13 +4,14 @@
 #include <sscanf2>
 #include <dini>
 #include <zcmd>
-
-#define l_red 0xFF0000AA
-#define l_green 0x33FF33AA
-
-#define Dialog_register 1
-#define Dialog_login 	2
-#define Dialog_konfrim 	3
+#include "MODUL\COLOR.pwn"
+#include <a_http>
+ 
+#define APIKEY "3E1D7992FDC36C8921ADEF28D1E7A665"
+//#define ALWAYS_RESPONSE
+#define DIALOG_REGISTER 1
+#define DIALOG_LOGIN 	2
+#define DIALOG_CONFIRM 	3
 
 new aVehicleNames[212][] =
 {
@@ -275,10 +276,23 @@ public OnPlayerConnect(playerid)
 	format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 	if(!dini_Exists(File))
 	{
-		ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
+		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "Isi", "Masuk", "Keluar");
 	}else{
-		ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
+		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 	}
+	new IP[30], str[300], pName[MAX_PLAYER_NAME];
+    GetPlayerName(playerid, pName, sizeof(pName));
+    GetPlayerIp(playerid, IP, sizeof(IP));
+    if(!strcmp(IP, "127.0.0.1"))
+    {
+        format(str, 230, "%s {FAFAFA}Has joined the server. {1FC7FF}Country: {FAFAFA}localhost", pName);
+        SendClientMessageToAll(GetPlayerColor(playerid), str);
+    }
+    else
+    {
+        format(str, sizeof(str),"api.ipinfodb.com/v3/ip-country/?key="APIKEY"&ip=%s", IP);
+        HTTP(playerid, HTTP_GET, str, "", "GetPlayerCountry");
+    }
 	return 1;
 }
 
@@ -295,7 +309,7 @@ public OnPlayerSpawn(playerid)
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
-	if(dialogid == Dialog_register)
+	if(dialogid == DIALOG_REGISTER)
 	{
 		if(response)
 		{
@@ -320,38 +334,38 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				// di sini kalian bisa menambah dialog seperti umur, jenis kelamin, dll
 				new string[500];
 				format(string,sizeof(string),"{2F70D0}______________________________\n{FF0000}Nama: {15FF00}%s\n{FF0000}Password: {15FF00}%s\n{2F70D0}______________________________",GetName(playerid),inputtext);
-				ShowPlayerDialog(playerid, Dialog_konfrim, DIALOG_STYLE_MSGBOX, "Stats Akun", string, "Spawn", "Kembali");
+				ShowPlayerDialog(playerid, DIALOG_CONFIRM, DIALOG_STYLE_MSGBOX, "Stats Akun", string, "Spawn", "Kembali");
 
 			}else
 			{
-				ShowPlayerDialog(playerid, Dialog_register, DIALOG_STYLE_PASSWORD, "Register", "harus memenuhi syarat", "Masuk", "Keluar");
+				ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "harus memenuhi syarat", "Masuk", "Keluar");
 			}
 		}else{
 			Kick(playerid);
 		}
 	}
-	if(dialogid == Dialog_login)
+	if(dialogid == DIALOG_LOGIN)
 	{
 		if(response)
 		{
 			new pass[255];
 			format(File, sizeof(File), "UCP/Users/%s.ini", GetName(playerid));
 			format(pass, sizeof(pass), "%s", dini_Get(File, "Password"));
-			if(!strlen(inputtext)) return ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
+			if(!strlen(inputtext)) return ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Isi", "Masuk", "Keluar");
 			if(strcmp(inputtext, pass) == 0)
 			{
 				SetTimer("loaddatapemain", 1000, false);
 
 				SendClientMessage(playerid, -1, "data berhasil di load");
 			}else{
-				 ShowPlayerDialog(playerid, Dialog_login, DIALOG_STYLE_PASSWORD, "Login", "Pass Salah", "Masuk", "Keluar");
+				 ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Pass Salah", "Masuk", "Keluar");
 			}
 
 		}else{
 			Kick(playerid);
 		}
 	}
-	if(dialogid == Dialog_konfrim)
+	if(dialogid == DIALOG_CONFIRM)
 	{
 		if(response)
 		{
@@ -392,11 +406,11 @@ CMD:veh(playerid,tmp[])
 {
 	new String[200];
 	new Float:x, Float:y, Float:z;
-	if(!strlen(tmp)) return SendClientMessage(playerid, l_red, "Anda tidak memberi nama kendaraan");
+	if(!strlen(tmp)) return SendClientMessage(playerid, COLOR_RED, "Anda tidak memberi nama kendaraan");
 
 	new vehicle = GetVehicleModelIDFromName(tmp);
 
-	if(vehicle < 400 || vehicle > 611) return SendClientMessage(playerid, l_red, "Nama kendaraan itu tidak ditemukan");
+	if(vehicle < 400 || vehicle > 611) return SendClientMessage(playerid, COLOR_RED, "Nama kendaraan itu tidak ditemukan");
 
 	new Float:a;
 	GetPlayerFacingAngle(playerid, a);
@@ -415,7 +429,7 @@ CMD:veh(playerid,tmp[])
 	LinkVehicleToInterior(PlayersVehicle, GetPlayerInterior(playerid));
 
 	format(String, sizeof(String), "Kendaraan berhasil di spawn %s", aVehicleNames[vehicle - 400]);
-	SendClientMessage(playerid, l_green, String);
+	SendClientMessage(playerid, COLOR_GREEN, String);
 	return 1;
 }
 
@@ -510,4 +524,36 @@ public savedatapemain(playerid)
 		SendClientMessage(playerid, -1, "data pemain berhasil di simpan");	
 
 	}
+}
+
+forward GetPlayerCountry(index, response_code, data[]);
+public GetPlayerCountry(index, response_code, data[])
+{
+    new buffer[358];
+    if(response_code == 200)
+    {
+        new str[230], city[3], country[20], pName[MAX_PLAYER_NAME];
+        GetPlayerName(index, pName, sizeof(pName));
+        format(buffer, sizeof(buffer), "%s", data);
+        strmid(str, buffer, 4, strlen(buffer)); // Cutting the 'OK' response...
+        strmid(city, str, strfind(str, ";", true) + 1, strfind(str, ";", true) + 3); // Getting City
+        strmid(country, str, strfind(str, ";", true) + 4, strlen(buffer)); // Getting Country
+        //printf("city: %s, country: %s", city, country);
+        format(str, 230, "%s {FAFAFA}Has joined the server. {1FC7FF}Country: {FAFAFA}%s %s", pName, country, city);
+        SendClientMessageToAll(GetPlayerColor(index), str);
+    }
+    else
+    {
+        new str[300], pName[MAX_PLAYER_NAME];
+        GetPlayerName(index, pName, sizeof(pName));
+        #if defined ALWAYS_RESPONSE
+        new IP[30];
+        GetPlayerIp(index, IP, sizeof(IP));
+        format(str, sizeof(str),"api.ipinfodb.com/v3/ip-country/?key="APIKEY"&ip=%s", IP);
+        HTTP(index, HTTP_GET, str, "", "GetPlayerCountry");
+        #else // Normal message, without country
+        format(str, 120, "%s {FAFAFA}Has joined the server.", pName);
+        SendClientMessageToAll(GetPlayerColor(index), str);
+        #endif
+    }
 }

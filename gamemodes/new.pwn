@@ -235,7 +235,7 @@ new aVehicleNames[212][] =
 	{"Utility Trailer"}
 };
 
-enum PlayerInfo
+enum pInfo
 {
 	Float: Health,
 	Float: Armour,
@@ -310,22 +310,35 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	format(File, sizeof(File), UserFile, GetPlayerNameEx(playerid));
+	format(file, sizeof(file), UserFile, GetPlayerNameEx(playerid));
 	new Float:x, Float:y, Float:z;
-	GetPlayerPos(playerid, x, y, z);
-	dini_FloatSet(file, "posX", x);
-	dini_FloatSet(file, "posY", y);
-	dini_FloatSet(file, "posZ", z);
+	dini_FloatSet(file, "PosX", x);
+	dini_FloatSet(file, "PosY", y);
+	dini_FloatSet(file, "PosZ", z);
 	dini_IntSet(file, "VirtualWorld", GetPlayerVirtualWorld(playerid));
 	dini_IntSet(file, "Interior", GetPlayerInterior(playerid));
-	dini_IntSet(file, "AdminLevel", pData[playerid][pAdmin])
-	savedatapemain(playerid);
 	return 1;
 }
 
 public OnPlayerSpawn(playerid)
 {
 	if(pData[playerid][pRegister] == 1 && pData[playerid][pLogin] == 0)
+	{
+		SetPlayerPos(playerid, 423.3033, 2530.6082, 16.6260);
+		SetPlayerSkin(playerid, 200);
+	}
+	else
+	{
+		format(file, sizeof(file, UserFile, GetPlayerNameEx(playerid));
+		if(pData[playerid][pLogin] == 1);
+		new Float: x, Float: y, Float: z;
+		x = dini_Float(file, "posX");
+		y = dini_Float(file, "posY");
+		z = dini_Float(file, "posZ");
+		SetPlayerPos(playerid, x, y, z);
+		SetPlayerVirtualWorld(playerid, dini_Int(file, "VirtualWorld"));
+		SetPlayerInterior(playerid, dini_Int(file, "Interior"));
+	}
 	return 1;
 }
 
@@ -531,10 +544,10 @@ public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
 	return 1;
 }
 
-stock GetName(playerid)
+stock GetPlayerNameEx(playerid)
 {
 	new name [ 32 ];
-	GetPlayerName(playerid, name, sizeof( name));
+	GetPlayerNameEx(playerid, name, sizeof( name));
 	return name;
 }
 
